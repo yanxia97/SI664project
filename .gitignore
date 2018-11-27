@@ -104,4 +104,4 @@ venv.bak/
 .mypy_cache/
 
 # api key
-/mysite/secret.py
+secret.py

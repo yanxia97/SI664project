@@ -105,3 +105,7 @@ venv.bak/
 
 # api key
 secret.py
+
+# hidden system file
+.DS_Store
+Thumbs.db

@@ -65,6 +65,33 @@ class ArtistRole(models.Model):
 #         db_table = 'artist_role'
 
 
+class Subject(models.Model):
+    subject_id = models.AutoField(primary_key=True)
+    original_id = models.IntegerField()
+    subject_name = models.CharField(max_length=45)
+    parent_subject = models.ForeignKey('self', models.DO_NOTHING, blank=True, null=True)
+
+    class Meta:
+        managed = False
+        db_table = 'subject'
+        ordering = ['subject_name']
+        verbose_name = 'Subject Shown in Artworks'
+        verbose_name_plural = 'Subject Shown in Artworks'
+
+    def __str__(self):
+        return self.subject_name
+
+# class Subject(models.Model):
+#     subject_id = models.AutoField(primary_key=True)
+#     original_id = models.IntegerField()
+#     subject_name = models.CharField(max_length=45)
+#     parent_subject = models.ForeignKey('self', models.DO_NOTHING, blank=True, null=True)
+
+#     class Meta:
+#         managed = False
+#         db_table = 'subject'
+
+
 class Artwork(models.Model):
     artwork_id = models.AutoField(primary_key=True)
     artwork_name = models.CharField(max_length=999)
@@ -79,7 +106,7 @@ class Artwork(models.Model):
     height = models.IntegerField(blank=True, null=True)
     depth = models.IntegerField(blank=True, null=True)
 
-    subject = models.MantToManyField(Subject, through='ArtworkSubject')
+    subject = models.ManyToManyField(Subject, through='ArtworkSubject')
 
     class Meta:
         managed = False
@@ -184,29 +211,3 @@ class Place(models.Model):
 #         managed = False
 #         db_table = 'place'
 
-
-class Subject(models.Model):
-    subject_id = models.AutoField(primary_key=True)
-    original_id = models.IntegerField()
-    subject_name = models.CharField(max_length=45)
-    parent_subject = models.ForeignKey('self', models.DO_NOTHING, blank=True, null=True)
-
-    class Meta:
-        managed = False
-        db_table = 'subject'
-        ordering = ['subject_name']
-        verbose_name = 'Subject Shown in Artworks'
-        verbose_name_plural = 'Subject Shown in Artworks'
-
-    def __str__(self):
-        return self.subject_name
-
-# class Subject(models.Model):
-#     subject_id = models.AutoField(primary_key=True)
-#     original_id = models.IntegerField()
-#     subject_name = models.CharField(max_length=45)
-#     parent_subject = models.ForeignKey('self', models.DO_NOTHING, blank=True, null=True)
-
-#     class Meta:
-#         managed = False
-#         db_table = 'subject'

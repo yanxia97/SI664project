@@ -17,83 +17,50 @@ def main(argv=None):
 
 	msg = [
 		'Source file read {0}',
-		'artist gender written to file {0}',
-		'UNSD M49 sub-regions written to file {0}',
-		'UNSD M49 intermediate regions written to file {0}',
-		'UNSD M49 countries and areas written to file {0}',
-		'UNSD M49 development status written to file {0}',
-		'UNESCO heritage site countries/areas written to file {0}',
-		'UNESCO heritage site categories written to file {0}',
-		'UNESCO heritage site regions written to file {0}',
-		'UNESCO heritage site transboundary values written to file {0}'
+		'artist genders written to file {0}',
+		'artist places written to file {0}',
+		'artist roles written to file {0}',
+		'artwork units written to file {0}'
 	]
 
 	# Setting logging format and default level
 	logging.basicConfig(format='%(levelname)s: %(message)s', level=logging.DEBUG)
 
 	# Read in artist (tabbed separator)
-	artist_csv = '../collection/artist_data.csv'
-	artist_data_frame = read_csv(artist_csv, '\t')
+	artist_csv = 'collection/artist_data.csv'
+	artist_data_frame = read_csv(artist_csv, ',')
 	logging.info(msg[0].format(os.path.abspath(artist_csv)))
 
 	# Write genders to a .csv file.
 	artist_gender = extract_filtered_series(artist_data_frame, 'gender')
-	artist_gender_csv = '../collection/output/artist_gender.csv'
+	artist_gender_csv = 'collection/output/artist_gender.csv'
 	write_series_to_csv(artist_gender, artist_gender_csv, '\t', False)
-	logging.info(msg[1].format(os.path.abspath(artist_region_csv)))
+	logging.info(msg[1].format(os.path.abspath(artist_gender_csv)))
 
 	# Write places to a .csv file.
-	artist_place = extract_filtered_series(artist_data_frame, 'place')
-	artist_place_csv = '../collection/output/artist_place.csv'
+	artist_place1 = extract_filtered_series(artist_data_frame, 'placeOfBirth')
+	artist_place2 = extract_filtered_series(artist_data_frame, 'placeOfDeath')
+	artist_place = artist_place1.append(artist_place2).drop_duplicates().dropna().sort_values()
+	artist_place_csv = 'collection/output/artist_place.csv'
 	write_series_to_csv(artist_place, artist_place_csv, '\t', False)
 	logging.info(msg[2].format(os.path.abspath(artist_place_csv)))
 
-	# Write intermediate_regions to a .csv file.
-	unsd_intermed_region = extract_filtered_series(unsd_data_frame, 'intermediate_region_name')
-	unsd_intermed_region_csv = './output/unsd_intermed_region.csv'
-	write_series_to_csv(unsd_intermed_region, unsd_intermed_region_csv, '\t', False)
-	logging.info(msg[3].format(os.path.abspath(unsd_intermed_region_csv)))
+	# Read in artwork (tabbed separator)
+	artwork_csv = 'collection/artwork_data.csv'
+	artwork_data_frame = read_csv(artwork_csv, ',')
+	logging.info(msg[0].format(os.path.abspath(artwork_csv)))
 
-	# Write countries or areas to a .csv file.
-	unsd_country_area = extract_filtered_series(unsd_data_frame, 'country_area_name')
-	unsd_country_area_csv = './output/unsd_country_area.csv'
-	write_series_to_csv(unsd_country_area, unsd_country_area_csv, '\t', False)
-	logging.info(msg[4].format(os.path.abspath(unsd_country_area_csv)))
+	# Write roles to a .csv file.
+	artist_role = extract_filtered_series(artwork_data_frame, 'artistRole')
+	artist_role_csv = 'collection/output/artist_role.csv'
+	write_series_to_csv(artist_role, artist_role_csv, '\t', False)
+	logging.info(msg[3].format(os.path.abspath(artist_role_csv)))
 
-	# Write development status to a .csv file.
-	unsd_dev_status = extract_filtered_series(unsd_data_frame, 'country_area_development_status')
-	unsd_dev_status_csv = './output/unsd_dev_status.csv'
-	write_series_to_csv(unsd_dev_status, unsd_dev_status_csv, '\t', False)
-	logging.info(msg[5].format(os.path.abspath(unsd_dev_status_csv)))
-
-	# Read UNESCO heritage sites data (tabbed separator)
-	unesco_csv = './input/csv/unesco_heritage_sites.csv'
-	unesco_data_frame = read_csv(unesco_csv, '\t')
-	logging.info(msg[0].format(os.path.abspath(unesco_csv)))
-
-	# Write UNESCO heritage site countries and areas to a .csv file
-	unesco_country_area = extract_filtered_series(unesco_data_frame, 'country_area')
-	unesco_country_area_csv = './output/unesco_heritage_site_country_area.csv'
-	write_series_to_csv(unesco_country_area, unesco_country_area_csv, '\t', False)
-	logging.info(msg[6].format(os.path.abspath(unesco_country_area_csv)))
-
-	# Write UNESCO heritage site categories to a .csv file
-	unesco_site_category = extract_filtered_series(unesco_data_frame, 'category')
-	unesco_site_category_csv = './output/unesco_heritage_site_category.csv'
-	write_series_to_csv(unesco_site_category, unesco_site_category_csv, '\t', False)
-	logging.info(msg[7].format(os.path.abspath(unesco_site_category_csv)))
-
-	# Write UNESCO heritage site regions to a .csv file
-	unesco_region = extract_filtered_series(unesco_data_frame, 'region')
-	unesco_region_csv = './output/unesco_heritage_site_region.csv'
-	write_series_to_csv(unesco_region, unesco_region_csv, '\t', False)
-	logging.info(msg[8].format(os.path.abspath(unesco_region_csv)))
-
-	# Write UNESCO heritage site transboundary values to a .csv file
-	unesco_transboundary = extract_filtered_series(unesco_data_frame, 'transboundary')
-	unesco_transboundary_csv = './output/unesco_heritage_site_transboundary.csv'
-	write_series_to_csv(unesco_transboundary, unesco_transboundary_csv, '\t', False)
-	logging.info(msg[9].format(os.path.abspath(unesco_transboundary_csv)))
+	# Write roles to a .csv file.
+	artwork_unit = extract_filtered_series(artwork_data_frame, 'units')
+	artwork_unit_csv = 'collection/output/artwork_unit.csv'
+	write_series_to_csv(artwork_unit, artwork_unit_csv, '\t', False)
+	logging.info(msg[4].format(os.path.abspath(artwork_unit_csv)))
 
 
 def extract_filtered_series(data_frame, column_name):
@@ -115,7 +82,7 @@ def read_csv(path, delimiter=','):
 	:param delimiter: field delimiter
 	:return: Pandas DataFrame
 	"""
-	return pd.read_csv(path, sep=delimiter, engine='python')
+	return pd.read_csv(path, sep=delimiter, low_memory=False)
 
 
 def write_series_to_csv(series, path, delimiter=',', row_name=True):

@@ -67,10 +67,13 @@ def main(argv=None):
 	write_series_to_csv(artwork_unit, artwork_unit_csv, '\t', False)
 	logging.info(msg[4].format(os.path.abspath(artwork_unit_csv)))
 
-	# artwork_json_dir = 'collection/artworks'
-	# artwork_subject_csv = 'collection/output/artwork_subject.csv'
-	# gci(artwork_json_dir)
-	# logging.info(msg[5].format(os.path.abspath(artwork_subject_csv)))
+	artwork_json_dir = 'collection/artworks'
+	artwork_subject_csv = 'collection/output/artwork_subject.csv'
+	data = {"accession_number":[], "subject_id":[], "subject_name":[]}
+	row = pd.DataFrame(data)
+	row.to_csv(artwork_subject_csv, sep='\t', index=False)
+	gci(artwork_json_dir)
+	logging.info(msg[5].format(os.path.abspath(artwork_subject_csv)))
 
 	# Read in subject_level_0
 	subject_0_json = 'collection/processed/subjects/level0list.json'

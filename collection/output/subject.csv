@@ -1,0 +1,2410 @@
+id	name	parent_id
+91	people	
+132	religion and belief	
+29	emotions, concepts and ideas	
+116	work and occupations	
+55	literature and fiction	
+145	society	
+60	nature	
+106	places	
+78	objects	
+13	architecture	
+162	symbols & personifications	
+47	leisure and pastimes	
+40	interiors	
+184	abstraction	
+33	history	
+4	group/movement	
+5731	universal religious imagery	132
+31	emotions and human qualities	29
+120	religious	116
+92	actions: postures and motions	91
+95	adults	91
+97	groups	91
+76	water: inland	60
+69	astronomy	60
+77	weather	60
+287	miscellaneous	78
+177	actions: expressive	91
+98	nudes	91
+125	crime and punishment	116
+71	landscape	60
+73	seascapes and coasts	60
+6904	family	145
+18	garden structures	13
+64	animals: features	60
+67	animals: mammals	60
+21	monuments	13
+28	townscapes, man-made features	13
+27	ruins	13
+166	inscriptions	162
+1030	abstract concepts	162
+30	universal concepts	29
+70	natural phenomena	60
+72	plants and flowers	60
+53	music and entertainment	47
+82	furnishings	78
+74	seasons	60
+1809	trees	60
+869	royalty and social rank	116
+93	body	91
+20114	portraits	91
+175	actions: processes and functions	91
+138	magic and occultism	132
+88	clothing and personal effects	78
+79	agriculture, gardening & fishing	78
+151	dress: ceremonial/royal	145
+178	diseases and conditions	91
+128	military	116
+17	features	13
+102	named individuals	91
+63	animals: fantastic	60
+117	agriculture and fishing	116
+14	agricultural	13
+24	public and municipal	13
+22	periods and styles	13
+25	religious	13
+26	residential	13
+172	scientific and measuring	78
+165	religious	162
+19	industrial	13
+118	arts and entertainment	116
+94	children	91
+75	times of the day	60
+41	domestic	40
+52	recreational activities	47
+170	vessels and containers	78
+86	tools and machinery	78
+180	trading and commercial	116
+160	transport: land	145
+161	transport: water	145
+124	industrial and crafts	116
+285	sports and games	78
+153	dress: fantasy/fancy	145
+85	heating and lighting	78
+90	weapons	78
+119	domestic	116
+171	medical	78
+80	fine arts and music	78
+46	workspaces	40
+130	public service	116
+121	educational and scientific	116
+146	birth to death	145
+61	animals: actions	60
+62	animals: birds	60
+156	health and welfare	145
+48	eating and drinking	47
+157	sex and relationships	145
+68	animals: reptiles	60
+444	mysticism	132
+8024	society	162
+174	reading, writing, printed matter	78
+20	military	13
+141	classical myths: gods and heroes	132
+45	religious	40
+169	religious and ceremonial	78
+84	kitchen	78
+158	social comment	145
+189	from recognisable sources	184
+83	domestic	78
+54	sport	47
+6729	formal qualities	29
+185	non-representational	184
+44	public and municipal	40
+164	birth to death	162
+6927	lifestyle and culture	145
+81	electrical appliances	78
+163	emotional states and conditions	162
+38	politics and society	33
+65	animals: fish and aquatic life	60
+18725	arts	33
+66	animals: insects & lower animals	60
+286	food and drink	78
+155	government and politics	145
+149	education, science and learning	145
+8028	politics	162
+8026	nature	162
+147	crime and punishment	145
+51	art and craft	47
+23	places of entertainment	13
+123	equestrian and sporting	116
+15	bridges and viaducts	13
+114	UK counties	106
+115	UK cities, towns and villages	106
+113	UK countries and regions	106
+43	places of entertainment	40
+126	literary	116
+10639	fine art and design, named works	78
+183	nationality	145
+9301	UK London	106
+108	countries and continents	106
+107	cities, towns, villages (non-UK)	106
+142	classical myths: creatures	132
+111	natural features (non-UK)	106
+133	Judaeo-Christian imagery	132
+89	toys and models	78
+134	Bible: New Testament	132
+127	medical	116
+58	literature (not Shakespeare)	55
+179	ethnicity	91
+10058	film, music and ballet	55
+159	transport: air	145
+36	military: World War I	33
+8407	man-made landmarks (non-UK)	106
+57	tales, legends and traditional	55
+137	world religions	132
+848	gender	162
+101	named families	91
+135	Bible: Old Testament	132
+136	Saints	132
+5734	blessing	5731
+2815	fear	31
+12297	preaching	120
+799	group	97
+3454	whirlwind	77
+3899	hook	287
+195	man	95
+1413	thief	125
+597	pool	76
+557	sea	73
+6907	family	6904
+12705	trellis	18
+1573	wing	64
+266	sheep	67
+865	standing stone	21
+989	townscape, distant	28
+2018	religious	166
+1560	shame	31
+12977	suffering	31
+11981	time - sun and moon	1030
+3542	power	30
+6910	husband	6904
+6915	wife	6904
+3964	rays	70
+10065	music	53
+2058	throne	82
+8494	word	166
+1571	poem	166
+9326	printed text	166
+1615	spring	74
+1827	tree	1809
+870	king	869
+506	field	71
+451	figure	95
+167	woman	95
+16927	strength	31
+271	walking	92
+537	moon	69
+975	sun	69
+1986	title of work	166
+4622	spell	138
+701	drapery	88
+2610	sheaf	79
+871	princess	869
+270	standing	92
+2057	vestments	151
+2342	mental illness	178
+867	soldier	128
+636	hill	71
+275	kissing	177
+3232	knight	869
+496	wooded	71
+587	stair / step	17
+1018	platform	17
+14746	sleeping	175
+565	reclining	92
+727	grief	31
+1554	headscarf	88
+1708	monster	63
+826	table	82
+708	shepherd / shepherdess	117
+942	valley	71
+1715	destruction	30
+9182	milestone	28
+769	road	28
+5014	signage	28
+1321	staff	88
+5750	worship	5731
+1497	ploughing	117
+2621	stable	14
+209	street	28
+983	townscape	28
+2388	waterfront	28
+1065	tower	17
+7063	portico	17
+8229	town hall	24
+495	river	76
+1886	clock	172
+12089	sinner - sheep	165
+12114	soul - bride	165
+14461	idyll	30
+1042	fertility	30
+2030	windmill	19
+602	horse	67
+3023	sailor	128
+5657	pulling	175
+563	rocky	71
+1104	fence	28
+615	head / face	93
+10061	collector / patron	118
+569	cow	67
+594	girl	94
+694	sitting	92
+1079	hand	93
+1696	looking up	92
+6924	mother and child	6904
+249	boy	94
+1810	shadow	70
+527	interior - non-specific	41
+493	hat	88
+2303	hat, bonnet	88
+1566	reading	52
+263	basket	170
+458	ladder	86
+674	donkey	67
+3617	sailor	180
+2205	tenderness	31
+4669	pinafore	88
+7306	pack animal	160
+604	riding	160
+1635	bench	82
+201	hat, cap	88
+6523	wheelbarrow	79
+686	woodman	117
+2597	cart	160
+2798	writing	52
+5294	smock	88
+605	saddle	287
+570	dog - non-specific	67
+1865	boat, sailing	161
+3219	boat, steam	161
+726	crouching	92
+5873	metalworking	124
+4153	sack	170
+1106	watching	175
+1871	turban	88
+4608	playing card	285
+4507	hand/hands on hip	92
+10063	dance	53
+2594	looking down	92
+1901	headdress	88
+656	holding hands	177
+875	supporting	177
+712	talking	177
+1805	theatrical costume	153
+4858	cane	88
+4593	head in hand/hands	92
+8640	whip	79
+2800	smoking	52
+5210	toga	88
+619	sword	90
+1524	yard	28
+3607	drawing water	119
+1062	crutch	171
+2576	stool	82
+3796	pram	160
+2076	jug	170
+5446	uniform	88
+2331	trunk	1809
+1219	legs crossed	92
+3410	pushing	175
+901	bucket	170
+5741	prayer	5731
+529	window	17
+6190	study	41
+3235	dress	88
+272	kneeling	92
+3479	cloth	287
+1738	ship - non-specific	161
+2094	fisherman / fisherwoman	117
+941	playing	52
+2355	ship, sailing	161
+15954	harness	79
+2567	trader	180
+3051	bag	88
+1521	boat, fishing	161
+1229	flag - non-specific	287
+1266	boat, rowing	161
+5566	labourer	124
+2736	stable	46
+971	door	17
+761	living room	41
+4116	name	166
+1957	name of sitter	166
+698	politician, prime minister	130
+12601	naturalist	121
+1627	guilt	31
+3119	lion	67
+699	cloak	88
+11011	mill	46
+8513	gate	28
+1134	man, old	95
+722	death	146
+614	storm	77
+6952	mason	124
+3186	vine	72
+1327	sea monster	63
+3745	winged horse	63
+2155	smiling	177
+1416	shock	31
+10069	singing	53
+265	dove	62
+1817	despair	31
+3156	teacher	121
+1393	pope	120
+743	garden	18
+3847	humility	31
+6191	pride	31
+6727	wisdom	31
+6914	widow	6904
+3256	kitchen	41
+1306	poverty	156
+6973	vineyard	71
+4829	wedding breakfast	48
+11148	planting	117
+6583	virgin	157
+2127	rope	287
+6922	father and child	6904
+6913	son	6904
+4306	window, stained glass	17
+10942	pharoah	869
+1408	snake	68
+6217	water-lily	72
+940	happiness	31
+8841	sculpture, Egyptian	80
+3832	office	46
+3517	statue	21
+1831	palm	1809
+2837	harvesting	117
+1454	woman, old	95
+1698	stream	76
+2919	peacock	62
+1714	vision	444
+6764	foolishness	31
+4989	terrace	17
+732	bedroom	41
+649	sculpture, classical	80
+4898	stonework	17
+3658	pilgrimage	120
+5743	procession	5731
+11167	justice - woman with sword and scales	8024
+204	painting	80
+6644	sunbeam	77
+1628	skeleton	93
+650	path	28
+5445	waterwheel	86
+5212	military	27
+5988	gun, rifle	90
+10324	nymph	141
+6876	pine	1809
+6874	trunk, blasted	1809
+800	wind	77
+2104	wave	73
+5656	shipwreck	161
+2042	pier	28
+946	watermill	19
+8186	crypt	45
+1519	beach	73
+1535	sunset	75
+5345	sadness	31
+3302	goatherd	117
+8400	peat cutter	117
+4564	torch	85
+881	glacier	71
+880	mountain	71
+2419	pelican	62
+3054	hallway	41
+3050	sex	157
+808	politician - non-specific	130
+4672	tea pot	84
+839	couch	82
+206	studio	46
+1208	seagull	62
+2835	paintbrush	80
+199	palette	80
+1214	wombat	67
+847	caricature	158
+1400	rain	77
+2332	heathland	71
+775	cat	67
+5930	transformation	30
+13791	stork	62
+221	figure	189
+450	workshop	46
+4627	mouse	67
+5004	tailor	124
+2799	sewing	119
+497	winter	74
+210	streetlight	28
+213	house	26
+1937	laundry	83
+2314	willow	1809
+913	waterfall	76
+13637	quarry	19
+1048	square	28
+1585	arm	93
+2362	marriage	157
+2369	plant	72
+1434	queen	869
+700	wall	17
+8376	name of place	166
+2575	tub	170
+4428	tool	86
+2191	ox	67
+1297	wood	287
+6004	shell	64
+1254	carriage	160
+2802	sweeping	119
+1522	wrestling	54
+2302	umbrella	88
+8493	bundle	287
+2378	ribbon	88
+750	chair	82
+3242	ship, steam	161
+2533	spade	79
+3606	well	28
+243	boat, gondola	161
+5651	rake	79
+2113	friar / monk	120
+2187	milkmaid	117
+1963	shawl	88
+723	lying down	92
+1142	hay	79
+4673	tray	83
+2848	robe	88
+12739	yoke	86
+1207	boat, barge	161
+2172	breast feeding	146
+544	embracing	177
+2095	fishing net	79
+479	veil	88
+4219	manger	79
+257	saw	86
+2648	sculpture	80
+1964	pansy	72
+4943	tulip	72
+2422	daisy	72
+755	grass	72
+4574	sky	71
+3419	headband	88
+2217	necklace	88
+7278	jumper	88
+4712	shirt	88
+17764	sailing	52
+1731	reflection	70
+9328	photographic	6729
+9024	repetition	6729
+6741	visual illusion	6729
+225	colour	185
+227	gestural	185
+796	irregular forms	185
+9663	monochromatic	185
+226	geometric	185
+19508	gestural	6729
+17629	scale	6729
+3592	war	158
+4490	pyramid	21
+203	spectacles	88
+2472	number	166
+11403	hallway	44
+17639	life and death - butterfly	164
+445	text	185
+6931	urban environment	6927
+11845	silhouette	6729
+8577	texture	6729
+5406	instrument, bell	80
+7205	structure	19
+5164	vacuum cleaner	81
+12910	high art	6927
+4063	consumerism	158
+2476	contemporary society	158
+11196	sphere	287
+8056	protection - felt	163
+1995	life - fat	164
+1284	box	170
+1982	notes and diagrams	166
+986	wounded	178
+223	landscape	189
+17996	period: Ice Age	38
+1283	rose	72
+11938	whale	65
+17956	vitality	31
+6744	movement	6729
+3026	shamanism	444
+7127	witch	138
+5931	monument	21
+17983	turbine	86
+222	man-made	189
+2415	swan	62
+3180	theatre	53
+1629	sexual organs	93
+4048	contrast	30
+18890	event: action, Joseph Beuys, 'Manresa', Schmela Gallery, Düsseldorf, 1966	18725
+3123	roof	17
+11714	defacement	6729
+3826	photographer	118
+846	suit	88
+476	sunlight	77
+17865	galaxy	69
+1707	star	69
+17774	universe	69
+17862	web	64
+5377	rainbow	70
+9366	brush	83
+211	wall	28
+448	leaf	72
+6749	symmetry	6729
+3527	homosexuality	157
+6742	purity	6729
+6746	space	6729
+6852	memory	31
+856	plinth	80
+1639	tie	88
+2986	singer	118
+6919	fragmentation	6729
+2813	artist, sculptor	118
+202	scarf	88
+3448	tattoo	88
+1296	plate	84
+934	hand/hands raised	92
+2448	skull	93
+8482	blur	6729
+12911	popular culture	6927
+17201	syringe	171
+18042	title of book / publication	166
+4896	poster	174
+821	music	166
+2568	butterfly	66
+1029	shoe	88
+1347	cloud	77
+9466	ice cream	286
+1077	foot	93
+11002	frame	80
+2100	chicken	62
+3678	patriotism	155
+14784	belt	88
+4154	brooch	88
+1380	earring	88
+6355	ring	88
+4685	bracelet	88
+629	jewellery	88
+17322	skirt	88
+7268	student	121
+8424	pop music	6927
+1725	taxi cab	160
+5040	wig	88
+11117	sunglasses	88
+3405	quotation	166
+499	name of artist	166
+11206	interior - non-specific	44
+3122	underwear	88
+17878	vest	88
+17870	interior	46
+18050	drink, vodka	286
+5443	humour	30
+18869	event: Rain Dance Benefit, New York, 1985	18725
+13199	projector	81
+4606	head	64
+1003	monkey	67
+8532	hippopotamus	67
+18017	walrus	67
+998	waving	177
+1795	medicine	171
+3545	vulnerability	31
+10188	dissection	149
+18012	pathology	149
+18011	pharmacology	149
+7002	physiognomy	149
+12390	dollar sign	166
+6728	youth	146
+6972	twins	6904
+8453	sunbathing	52
+17920	side show	53
+17934	specimen	149
+2223	waiter / waitress	180
+16236	wealth	30
+6006	transvestism	157
+9489	stripper	118
+2090	wallpaper	82
+749	park	18
+630	feather	64
+8451	swimming costume	88
+11100	knife	86
+4408	letter of alphabet	166
+4278	scissors	86
+3288	sewing machine	86
+18086	sucking thumb	175
+18019	sculpture, Baroque	80
+572	energy	30
+1596	environment / nature	30
+18016	regeneration	30
+17863	contrast	6729
+9329	diagrammatic	6729
+6787	language	149
+6726	mortality	146
+17972	fat - creativity	1030
+17971	fat - nourishment	1030
+1998	felt	287
+18198	energy - copper	1030
+4438	political belief	155
+4372	revolutionary	155
+8559	bag	170
+18199	scale	64
+3672	spirituality	444
+17979	maple	1809
+17908	geyser	71
+17978	reason - crystal	163
+1876	fish	65
+3598	heart	93
+17975	socialism - bees	8028
+8071	nature - woman	8026
+13390	stone	287
+17973	zinc	287
+1286	newspaper - non-specific	174
+5184	rabbit	67
+17910	motor	86
+17825	pylon	19
+17963	protection - hat	163
+17990	magnet	172
+6951	stamp	166
+17958	philosophy, Steiner	149
+17954	warmth - yellow	1030
+17955	spirituality - blue	165
+18746	event: action, Joseph Beuys, 'I like America and America Likes Me', René Block Gallery, New York, 1974	18725
+16419	newspaper, 'Wall Street Journal'	174
+7942	science	149
+17953	survival	30
+4645	slate	287
+6327	watering can	79
+2892	water	70
+10217	torture	147
+18884	protests and unrest: Prague Spring reform programme, 1968	38
+2959	invitation	174
+218	snow	77
+17464	exhibition	51
+6829	stadium	23
+10082	sledge	160
+5319	van	160
+19237	exhibition: 'Joseph Beuys, Multiplizierte Kunst', Wilhelm Hack Museum, Ludwigschafen, 1980	18725
+18900	protests and unrest: anti-nuclear campaign	38
+2289	village	28
+8034	sequence	6729
+18076	photographic negative	6729
+20809	ship, warship, 'USS Alliance'	161
+4637	politics: Nazi Germany, 1933-45	38
+8149	observatory	24
+5565	wheelchair	171
+4277	estate	71
+1012	country house	26
+1832	branch	1809
+2962	deer	67
+2774	graveyard	28
+1866	twisting	92
+10325	putto	141
+9798	gatehouse	26
+457	farmland	71
+1025	torso	93
+10532	gladiator	123
+2414	island	73
+2285	rocky	73
+936	foliage	72
+244	arch	17
+2711	abbey	25
+214	chimney	17
+8755	gable	17
+805	building - non-specific	28
+4527	spire	17
+745	religious	27
+4118	sedan chair	160
+19620	weather vane	172
+2045	railing	28
+7451	theatre	23
+509	Wales	113
+465	church	25
+4774	priory	25
+1518	harbour	73
+15952	flagpole	28
+247	dock	28
+564	running	92
+480	male	98
+245	column	17
+1320	cross	169
+2455	residential	27
+1351	cliff	71
+2063	artist's notes	166
+9010	battlement	17
+7757	coat of arms	169
+4202	wheel	287
+11010	marbles	52
+1138	castle	20
+241	column	21
+7701	buttress	17
+1727	cathedral	25
+5850	chapel	25
+1132	pig	67
+874	tent	26
+11495	gravestone / tomb	169
+678	boat - non-specific	161
+2354	mast	161
+2987	bell tower	25
+2111	medieval	22
+13609	market	24
+9035	winch	86
+503	cottage	26
+2942	gorge	71
+2608	fish basket	79
+11348	priory	45
+558	coast	73
+777	cliff	73
+475	lake	76
+5662	kiln	19
+5060	bay	73
+2943	cathedral	45
+3357	oak	1809
+2043	lighthouse	24
+1792	smoke	70
+7948	yew	1809
+4309	industrial worker	124
+819	dock	72
+4932	wild boar	67
+999	church	45
+9873	transience - hour glass	164
+1826	crane	86
+2051	capital	17
+3521	sleeping	61
+2230	public house	23
+8698	quarryman	124
+540	night	75
+3571	abbey	45
+1567	seafront	28
+8743	sea wall	28
+6070	laundering	119
+8123	Scottish Borders	114
+4052	weir	76
+1236	estuary	76
+3082	instrument, organ	80
+2261	sunrise	75
+2400	lobster pot	79
+1907	fire, open	85
+8442	pulpit	169
+5973	pew	82
+1857	hospital	24
+9109	scales	172
+491	ivy	72
+11481	hull	161
+1163	ship, warship	161
+9808	mill	19
+8899	finial	17
+945	bridge	15
+7453	forge	19
+2921	turkey	62
+6243	machinery	86
+2334	root	1809
+2550	temple	25
+625	landscape - non-specific	71
+10991	royalty: George III's recovery, thanksgiving, 23 Apr 1789	38
+1802	theatre	43
+4279	forest	71
+1181	poet	126
+7712	cloisters	45
+3937	bracken	72
+3462	thistle	72
+11917	briar	72
+9678	aspen	1809
+1257	shield	90
+12084	weapon, firing / explosion	90
+7563	river god	141
+7585	river bed	76
+4604	school	24
+2765	goose	62
+4687	floor	17
+5852	chapel	45
+7773	pavilion	18
+5730	hall	44
+7067	screen	17
+4568	moonlight	69
+3778	building	27
+4389	skeleton	64
+3771	viaduct	15
+2087	bank	76
+6199	volcano	71
+8113	kilt	88
+14869	horse chestnut	1809
+5404	laurel	72
+4488	burdock	72
+868	helmet	88
+2312	instrument, harp	80
+514	classical	22
+5826	ship, hulk	161
+1927	palace	26
+13022	poetry	6927
+8952	fortification	20
+8603	shed	46
+1968	violence	30
+11369	van Ruysdael, painting	10639
+7503	monument	27
+7658	shrine	25
+714	hut	14
+6609	triumphal arch	21
+3557	picnic	48
+1496	plough	79
+5424	fleeing	177
+15361	politics: William Tell, 14th c.	38
+1399	lightning	77
+13389	flood	77
+2182	sail	161
+1503	flying	92
+1076	leg	93
+3379	townscape	27
+535	urn	17
+5779	rigging	161
+794	figure	98
+15354	steward	119
+688	farm labourer	117
+548	servant	119
+7825	ship, warship, 'HMS Victory'	161
+6649	deck	161
+3851	hall	41
+5407	dragon	63
+8920	sandbank	76
+5207	pleading	177
+7461	island	76
+8749	sluice	28
+8747	lock	28
+8401	hedging and ditching	117
+1830	stump	1809
+6465	kettle	84
+466	bush	72
+1709	scythe	79
+606	hunting	54
+12091	studio	19
+5192	shopping	119
+12044	yard	19
+1858	Greenwich, Royal Naval Hospital	9301
+1151	dome	17
+8585	fish hook	79
+13149	water tower	19
+2280	fishing	54
+8432	gallery	41
+5659	skylight	17
+9335	gauge	172
+681	morning	75
+9331	map	166
+7863	cypress	1809
+5611	dog, pointer	67
+3430	cradle	82
+10452	pediment	17
+5848	tunnel	28
+2101	trough	79
+15956	shroud	169
+517	washing	175
+6211	measurements	166
+9101	time - old man	1030
+806	summer	74
+9102	meeting	155
+1115	duck	62
+4432	gamebird	62
+10478	lying down	61
+3183	parrot	62
+1583	mantelpiece	17
+2831	fir	1809
+8338	library	41
+4990	lamp	85
+2571	fireplace	85
+6005	avenue	28
+4616	scientific instrument	172
+3994	kingfisher	62
+4911	moat	76
+7723	summerhouse	18
+3568	ceiling	17
+240	canal	76
+269	flower	72
+11832	sorrel	72
+4285	stile	28
+1011	balustrade	17
+675	cave	71
+7650	rotunda	17
+11833	strawberry	72
+11834	marsh mallow	72
+8962	wreath	169
+7435	Rotterdam - non-specific	107
+12268	Rotterdam, St Lawrence's Cathedral	107
+2475	clothing	88
+9016	turret	17
+997	city wall	28
+12270	Utrecht, Utrecht Cathedral	107
+219	child	94
+3398	lance	90
+1719	Scotland	113
+744	picture	80
+3586	mace	90
+11769	fresco	80
+3791	scaffolding	28
+3269	olive	1809
+3140	fountain	18
+9131	Milan, Milan Cathedral	107
+4823	Venice, Piazza San Marco	107
+6868	Venice, San Marco	107
+3277	Venice, Doge's Palace	107
+11808	Venice, Loggetta	107
+11820	Venice, Torre dell'Orologio	107
+8315	Venice, Molo	107
+8367	Venice, Riva degli Schiavoni	107
+5952	Venice, Zecca	107
+2768	Venice - non-specific	107
+237	Italy	108
+2020	plaque	169
+9914	Terni	107
+246	arcade	17
+1087	painting	51
+11496	tomb	21
+11829	place of entertainment	27
+2761	relief	80
+5213	urn	170
+1461	vase	170
+12912	muse	31
+754	instrument, stringed	80
+3874	satyr	142
+1977	mask	88
+11830	public and municipal	27
+7893	bridge	27
+6301	aqueduct	15
+8241	cornice	17
+7556	colonnade	17
+5271	oven	84
+10454	frieze	17
+3730	temple	45
+7314	Rome, St Peter's Church	107
+5934	Rome, St Peter's Square	107
+538	bird	62
+2079	candlestick	85
+13647	mathematics, Moxon	149
+621	mathematics	149
+7552	entablature	17
+8638	tomb	45
+6280	nettle	72
+9910	battle	128
+13382	crow's-nest	161
+13383	marine	128
+13872	ship, sailing, 'Royal George'	161
+7099	royalty: George IV, visit to Edinburgh, Aug 1822	38
+9159	stepping stones	76
+12857	plantain	72
+2990	digging	117
+11111	parade	53
+5442	buoy	287
+7480	telescope	172
+5512	fishing rod	79
+1047	parasol	88
+5929	drainpipe	17
+5456	panelling	17
+4945	dresser	82
+2606	jar	170
+4526	monastery	25
+5193	meat	286
+3080	parliament	24
+3071	boat, yacht	161
+3072	yachting	54
+13402	ship, warship, 'HMS Melville'	161
+3008	love	31
+8731	breakwater	28
+13171	Montefiascone - non-specific	107
+13170	Orvieto, Orvieto Cathedral	107
+13557	Lodi	107
+11549	Turin, Palazzo Madama	107
+13559	Milan, Piazza Fontana	107
+7709	Woodstock, Blenheim Palace	115
+9961	Virginia Water	115
+12866	pagoda	18
+823	factory	19
+2609	anchor	161
+8438	plasterwork	17
+1617	musician	118
+3729	tapestry	80
+8802	toll station	24
+2607	cave	73
+5176	museum	24
+2700	hotel	26
+504	evening	75
+8231	pet grooming	180
+449	walking	52
+5821	wave	76
+3061	instrument, drum	80
+3011	instrument, violin	80
+7273	race course	23
+7561	convent	25
+1326	fire	70
+10581	tench	65
+10580	perch	65
+10582	trout	65
+7676	teal	62
+10844	smuggler	125
+1520	pheasant	62
+7655	woodcock	62
+16335	tide	73
+2068	corbel	17
+6379	firework display	53
+14270	historical, Elizabethan	153
+1702	niche	17
+1152	courtyard	28
+13884	Stirling, Church of the Holy Rude	115
+2016	phrase	166
+8799	dogfish	65
+4796	policeman / policewoman	125
+1069	drawing	51
+11257	fork	79
+3721	puppet show	53
+2928	mourning	146
+4147	water sprite	138
+1253	funeral	146
+3005	collapse	178
+1332	spirit	444
+6368	hour glass	172
+11525	science, Galileo	149
+2807	party	52
+8420	prisoner	147
+8118	exploration: Columbus, voyage to America, 1492	38
+8846	ship, sailing, 'Santa Maria'	161
+1718	college	24
+9150	spring	76
+519	female	98
+12082	orchard	71
+12945	Nuremberg, St Sebaldus's Church	107
+4373	obelisk	21
+5752	sacrifice	5731
+3561	Germany	108
+8355	gondolier	180
+5427	lantern	85
+2497	murder	147
+600	couple	157
+4479	courting	157
+1840	shop	44
+235	Venice, Piazetta	107
+10370	Venice, Piazza San Marco, Pilastri Acritani	107
+2299	ghost	138
+2898	map	172
+9811	canopy	82
+10615	royalty: Louis-Phillipe, visit to Britain, Oct 1844	38
+6220	whaler	117
+7914	dusk	75
+6171	mist	77
+2982	sublime	30
+1834	dawn	75
+4582	shed	19
+4308	foundry	19
+1165	chimney	19
+9809	copperworks	19
+1561	farm	14
+1133	goat	67
+7715	medal	169
+11001	ship, warship, 'Hampton Court'	161
+6730	eroticism	157
+12509	bluebell	72
+5053	pigeon	62
+9680	larch	1809
+12294	pulley	86
+2937	peers' robes	151
+15834	exile	147
+4015	dog, pug	67
+1091	pipe	88
+7076	victim	31
+1662	actor / actress	118
+627	riding	52
+5733	angel	5731
+3370	printmaking	51
+929	document - non-specific	174
+2793	artist, painter	118
+6344	vagrancy	147
+2790	artist, printmaker	118
+6124	nostalgia	31
+549	drinking	48
+4702	aristocrat	869
+6356	protests and unrest: Peep-o'-Day Boys, 18th c.	38
+19604	light	70
+2024	bow	90
+1835	shopkeeper	180
+2216	dagger / knife	90
+1269	eating	48
+5079	playwright	126
+8158	sickle	79
+5920	society: black history	38
+20117	individuals: female	20114
+6796	stages of life	146
+2241	coat	88
+2204	prison	44
+6939	tourism	52
+3475	dressing gown	88
+1220	maid	119
+4235	stocking	88
+4394	synagogue	45
+14712	social contrast - 'Dives and Lazarus' painting	8024
+14716	period: 18th c.	38
+5062	cravat	88
+16462	eel buck	79
+11545	flag, Denmark	287
+1032	vegetable - non-specific	286
+6761	good and evil	30
+1966	rape	147
+5928	royalty: Prince Regent, birthday, 12 Aug 1818	38
+16338	royalty: Prince Regent, official birthday, 23 Apr	38
+3854	recital	53
+11986	rosary - necklace	165
+5945	society: Walhalla temple, opening, 1842	38
+4422	kennel	287
+878	spear	90
+12990	kennel	46
+4429	robbery	147
+3694	marquee	23
+7391	politician, Member of Parliament	130
+6306	print	80
+17838	gratitude	31
+2114	nun	120
+6460	fancy dress / role play	153
+1435	prince	869
+1195	journalist	126
+1278	instrument, horn	80
+20116	self-portraits	20114
+16356	war - monster	8024
+3352	tea party	48
+926	desk	82
+3774	sheriff	130
+447	hedge	72
+8179	toll gate	24
+5391	transfiguration	444
+1889	collar	88
+6435	trench	20
+7335	rat-catcher	130
+15817	period: Stuart dynasty, 1603-1714	38
+6923	sanctuary	133
+6725	innocence	31
+844	rug	82
+15699	geology	149
+20118	individuals: male	20114
+2123	politics: Jacobites, c.1688-1745	38
+15787	dog, Spitz	67
+1002	dog, spaniel	67
+6351	iconoclasm	133
+7042	period: Middle Ages	38
+2470	persecution	158
+11716	hope	31
+553	flirtation	157
+657	friendship	157
+4132	swineherd	117
+3296	pavement	28
+14504	period: Regency, c.1811-20	38
+4909	society: emigration, 19th c.	38
+12093	soul - dove	165
+15835	period: 17th c.	38
+4730	story telling	52
+5152	criminal	147
+4961	trial	147
+1750	picking flowers	52
+3916	iceberg	73
+6887	water pump	86
+2514	parable	134
+6282	violet	72
+4067	sensuality	30
+15875	death - woman	164
+1946	lawyer	125
+14396	youth - primrose	164
+7842	lace	88
+1196	author	126
+4312	time	30
+2946	mussel	65
+16435	washing	61
+6474	exotic	153
+4766	stove	85
+3548	philanthropist	130
+1097	restraining	177
+3974	sunflower	72
+6912	sister	6904
+14407	royalty: Lady Jane Grey, succession, 1553	38
+2126	floating	92
+795	horror	31
+3440	instrument, cello	80
+4755	instrument, double bass	80
+8954	enchantment	138
+21282	peasant	117
+11426	royalty: Victoria, accession, 20 Jun 1837	38
+760	jacket	88
+3701	surgeon	127
+4607	leopard	67
+3375	portfolio	80
+774	fruit - non-specific	286
+4222	fruit, grape	286
+5066	fruit, nut	286
+3697	fruit, peach	286
+2158	crown	169
+6566	restauranteur	180
+6374	lizard	68
+13553	peace	30
+706	politician, Foreign Secretary	130
+4793	railway station	24
+672	camel	67
+2209	contemplation	31
+1491	pointing	177
+1244	stick	287
+15842	Seddon, John Pollard, 'Progress in Art and Architecture'	58
+16627	sheep-shearing	117
+2789	charity	156
+9967	loom	86
+8730	purity - lily	163
+1109	train	160
+1890	ruff	88
+3652	tiger	67
+8531	roaring	61
+737	pillow	82
+7349	mourning dress	151
+1122	obesity	178
+5110	bow	88
+1436	cardinal	120
+1821	nanny	119
+2988	dancer	118
+8097	war - serpent	8024
+4384	refugee	155
+752	instrument, lute	80
+2499	fan	88
+1778	gypsy	179
+6738	sensuality	157
+3911	orange	1809
+4656	verandah	17
+6056	orgy	157
+1374	critic	126
+1078	mirror	82
+3793	chess board	285
+3176	chess piece	285
+5714	sexton	120
+6953	stretcher	171
+2838	haystack	79
+4660	wolf	67
+7046	boredom	31
+5147	suicide	146
+1344	punishment	147
+5272	tar	287
+2744	material world - half-buried figures	1030
+1431	contrition - step of rough stone	163
+1429	love - step of porphyry	163
+1432	sincerity - step of marble	163
+554	morality	158
+1755	memorial	146
+16431	ship, warship, 'HMS Repulse'	161
+16430	ship, warship, 'HMS Tiger'	161
+3608	music room	41
+1936	washing line	83
+7146	garter	88
+1120	glove	88
+5074	horse racing	54
+2520	serenity	31
+661	model	118
+12602	scientist	121
+1780	resurrection	133
+4703	court dress	151
+4816	conductor	118
+5413	tent	41
+5054	feeding	61
+19548	rag and bone	180
+7048	rowing	54
+2389	kite flying	52
+12993	golf course	23
+13265	club	23
+9210	steam	70
+6906	daughter	6904
+6911	mother	6904
+5576	cheese dish	84
+4217	cutlery	84
+19665	glass	84
+17173	hope - young girl	163
+1659	zebra	67
+5052	execution	147
+6745	rhythm	6729
+671	elephant	67
+4416	instrument, bagpipes	80
+11425	tunic	88
+2153	fairy	138
+931	garland	72
+16313	ship, warship, 'St Vincent'	161
+3259	curator	118
+1071	table cloth	82
+6631	youth - pipe	164
+4929	cormorant	62
+4314	squirrel	67
+1228	lily	72
+5387	poppy	72
+8422	knitting	51
+14379	salmon trap	79
+505	barn	14
+12711	tug of war	54
+8661	ice skating	52
+6478	period: Tudor dynasty, 1485-1603	38
+232	freedom	158
+16595	nature - fruit	8026
+15640	Mongolian	183
+816	sheet music	80
+4395	rabbi	120
+5449	make-up	88
+19025	sea lion	65
+6613	fruit-pressing	117
+3211	bathroom	41
+2404	dressing table	82
+927	book - non-specific	174
+8485	fern	72
+12793	jaguar	67
+4664	puma	67
+4665	antelope	67
+4636	vulture	62
+3502	tusk	64
+4918	rugby	54
+5598	fair	53
+18863	organisation: British Museum Reading Room, London, renovation, 1907	18725
+5904	royalty: Kaiser Friedrich III, memorial service, 1888	38
+3687	spinning	124
+4297	wheel	160
+8220	monogram	166
+9278	instrument, tambourine	80
+14349	instrument, zither	80
+19582	period: Aztec civilization	38
+15641	Indonesian	183
+2019	scroll	174
+4510	circus	43
+2989	gardening	117
+4710	gambling	52
+1473	shop	24
+5309	cyclamen	72
+1127	farmer	117
+4552	wedding dress	151
+647	isolation	31
+16047	hunter	117
+3185	seduction	157
+5732	patient	156
+18425	di Duccio, Agostino, sculpture	10639
+14392	sultana	869
+7164	toasting	48
+764	dining room	41
+15963	window box	79
+5111	drawing	80
+1287	drawing board	80
+11193	sketchbook	80
+1861	instrument, piano	80
+3878	music stand	80
+4771	mystery	30
+6093	spade	89
+1136	livestock pen	14
+1140	tractor	160
+6480	trailer	160
+14723	laundry	46
+2534	grave	28
+12923	vanity - mirror and mask	163
+1978	trident	90
+6166	humanity - child resting in giant hand	1030
+2318	worm	66
+12600	mathematician	121
+1276	harlequin	153
+2719	jockey	123
+3244	railway	28
+9428	midwife	127
+224	organic	189
+2329	toad	65
+258	pliers	86
+1851	skull	64
+7643	cleaning	119
+1217	slipper	88
+10312	old age	146
+8634	museum	44
+12740	transience - flower	164
+16376	transience - mirror	164
+1113	prostitution	157
+3647	history	30
+2353	decay	30
+15753	desolation	30
+3981	menace	30
+3700	hospital	44
+2528	wheat	72
+5307	greenhouse	46
+4167	globe	172
+4949	vegetable, mushroom	286
+5016	royalty: George VI, coronation, 12 May 1937	38
+13003	waste tip	19
+6905	brother	6904
+5748	soul	5731
+5020	telegraph pole	28
+3172	wardrobe	82
+5022	housekeeper	119
+14952	pink	72
+8720	wind - putto	8026
+2842	innkeeper	180
+13051	official	130
+841	curtain	82
+15964	plant pot	79
+4458	Russian	183
+4670	hands clasped	92
+16105	cartoon / comic strip	6729
+5719	danger	30
+4334	boot	88
+19504	pottery	19
+15580	protests and unrest: Tolpuddle Martyrs, c.1834	38
+1598	instrument, lyre	80
+20413	carousel	285
+6353	vandalism	147
+5015	flag, Union Flag	287
+6925	cubist space	6729
+2287	weeping	177
+2465	moustache	93
+843	satire	158
+13025	spiritual world - heavenly city	165
+16245	prisoner of war camp	20
+995	mosque	25
+5616	ship, tanker	161
+10116	submarine	161
+10427	prisoner of war	128
+5167	pilot	128
+4871	underground station	44
+17884	documentary	6729
+9552	scrapyard	19
+16141	airfield	20
+2778	paper	287
+7182	furnace	85
+6241	foundry	46
+5059	miner	124
+8096	war - ruined building	8024
+4735	royalty: Victoria, coronation, 28 Jun 1838	38
+14944	spring - woman	8026
+14292	love, everlasting - ivy	163
+17254	van Dyck, Anthony, painting, 'Queen Henrietta Maria'	10639
+6766	virtue	31
+12443	political power	155
+3424	tea set	84
+955	ball	285
+18237	sculpture, Assyrian	80
+1613	disbelief	31
+5498	health and welfare: prison reform, 18th c.	38
+818	reed	72
+1043	décolletage	88
+11225	rockery	18
+1924	diplomat	130
+16454	protests and unrest: Italy, 1945-48	38
+5010	caryatid	17
+15752	graffiti	28
+6530	poacher	125
+2955	past - classical architectural fragments	1030
+12459	rhododendron	72
+3297	key	83
+885	aerial view	71
+12448	crater	71
+3924	desert	71
+4856	cockerel	62
+1270	restaurant	43
+827	industrial society	158
+828	pollution	158
+4789	dog, bull terrier	67
+16277	power - standing figure	1030
+4503	café	43
+1093	leaping	61
+4445	voodoo	138
+4505	tutu	88
+7187	staff room	46
+198	artist - non-specific	118
+3446	baton	80
+2069	instrument, clarinet	80
+1280	instrument, flute	80
+2521	instrument, trumpet	80
+938	militarism	158
+231	political prisoner	155
+6709	triumph	31
+3902	tile	17
+902	tap	287
+1298	wire	287
+5971	gloxinia	72
+4962	judge	125
+6719	mackerel	65
+3991	slavery	158
+7392	politician, Secretary of the Treasury	130
+13021	musical analogy	6927
+11192	fingerprint	93
+2922	fox	67
+3251	infidelity	157
+7963	poker	85
+757	mouth	93
+13345	buzzard	62
+13346	kestrel	62
+13349	marsh harrier	62
+13350	osprey	62
+4877	sparrowhawk	62
+19657	cup / mug	84
+16367	paper clip	287
+4617	airport	24
+1037	fruit, apple	286
+11260	fruit, fig	286
+2009	fruit, pear	286
+12986	fruit, plum	286
+16121	fruit, quince	286
+8514	grate	85
+807	lawn	18
+1747	topiary	18
+3027	symbol	444
+13335	stole	88
+12464	disease	61
+4876	death	61
+11251	racing driver	123
+6708	engine	86
+4199	hose	86
+10150	music: Brahms, 'Ein Deutsches Requiem'	10058
+7289	tower block	28
+5481	frog	65
+3195	politics: Northern Ireland	38
+16164	sport: Mexico Olympic Games, 1968	38
+16195	telephone box	28
+5441	warehouse	19
+4290	thorn	72
+10215	baboon	67
+5615	tyre	160
+11235	handprint	93
+4694	fruit, lemon	286
+5171	spacecraft	159
+2438	pun	30
+1572	eye	93
+5984	plant cell	72
+4620	bear	67
+6783	philosophy, Eastern	149
+9381	innocence - the Fool	163
+1695	electrical component	81
+10213	organ	93
+3702	vein	93
+10027	test dummy	172
+5605	scientific model	172
+3986	robot	86
+6041	robot	89
+11245	tank	89
+3574	sundial	172
+3786	see-saw	52
+3118	snail	66
+1733	bathing / swimming	52
+13518	fjord	73
+4455	parachute	159
+11133	motorcycle racing	54
+12875	chance	6729
+11138	death: Governor George Wallace, assassination, 15 May 1972	38
+3850	maze	17
+6440	mound	21
+5273	postcard	174
+10924	product packaging	174
+16806	trolley	287
+6705	wrench	86
+6706	screw driver	86
+12880	classification	6729
+3150	spanner	86
+1990	metal cutter	86
+7031	shears	86
+5154	paper	174
+10039	ash	1809
+4302	pencil	174
+703	money	287
+15638	psychology, Laing	149
+3136	frustration	31
+13610	artist, multi-media	118
+6127	running	61
+3987	choreographer	118
+3298	telephone	81
+1939	quill pen	174
+8602	truffle hunting	117
+13261	juggling	52
+1256	mule	67
+15648	sport: Sarajevo Winter Olympic Games, 1984	38
+9414	bison	67
+9415	rhinoceros	67
+16011	dromedary	67
+693	clover	72
+8486	root	72
+758	anxiety	31
+10114	hammock	82
+7060	home front	36
+16009	ticket inspector	130
+6944	science fiction	6927
+7913	nationalism	158
+9436	threshing	117
+5876	creation	30
+13236	perspiration	178
+3295	road sweeper	130
+7201	insect	66
+12410	book, 'Deliverance From Russia'	174
+13271	vending machine	86
+935	shouting	177
+9369	drill	86
+10171	stopcock cover	28
+10210	linoleum	82
+9402	starflower	72
+8533	swimming	61
+13288	zip	88
+10534	wrestler	123
+1169	letter	174
+13213	loudspeaker	81
+3053	light, electric	85
+3604	light, spotlight	85
+13329	spider plant	72
+3959	tripod	86
+6548	caption	166
+13394	toaster	84
+2434	earth	70
+6128	ruler	172
+12337	book, Freeman, 'On the Safeguarding of Life in Theatres'	174
+12340	book, Lewis, Wyndham, 'The Caliph's Design'	174
+12341	magazine, 'Transition'	174
+12342	magazine, 'Partisan Review'	174
+12345	book, 'The Bronxville Portfolio'	174
+12348	book, Hunt, Violet, 'Zeppelin Nights'	174
+12350	book, Miller, Henry, 'Max and the White Phagocytes'	174
+12352	book, 'Edward Weston'	174
+12353	book, Lindsay, Vachel, 'The Congo'	174
+12361	book, Mead, Margaret, 'Coming of Age in Samoa'	174
+12362	book, Burke, Kenneth, 'Towards a Better Life'	174
+12363	book, Penguin Modern Painters, 'Edward Hopper'	174
+12365	book, Marlborough, 'Mark Rothko'	174
+2814	gun, handgun	90
+12372	book, Gorky, Maxim, 'Articles and Pamphlets'	174
+12374	book, Trotsky, Leon 'The Defence of Terrorism'	174
+12417	book, 'Kampflieder ... de las Brigadas Internacionales'	174
+12375	book, 'The Jewish Question'	174
+12376	book, 'Plague'	174
+8694	tank	160
+12393	book, Rice, Elmer, 'The Adding Machine'	174
+12338	book, Goris, Jan-Albert, 'Belgian Letters'	174
+3253	pen	174
+12396	book, Lum and Abner, 'Jot 'em Down Store'	174
+12398	book, Tweed, 'Boss'	174
+13204	music: Bartók, 'The Miraculous Mandarin'	10058
+13198	tapir	67
+7040	knight	128
+12453	thread	287
+7259	operation	156
+4846	igloo	26
+4963	jury	147
+10113	thimble	83
+9544	watch	172
+10077	philosophy, Wittgenstein	149
+9494	peanut	286
+5131	rocket	159
+5198	record	80
+11853	telegram	174
+1495	France	108
+2433	seed	72
+12233	sheet music	174
+3802	composer	118
+6720	saucepan	84
+19662	bowl	84
+4086	egg	286
+3485	space	69
+6518	skin	93
+11163	postage stamp	174
+3115	politician, political leader	130
+11240	string	287
+16168	sacred site - hand	165
+6848	zoo	23
+6850	giraffe	67
+3623	post box	28
+4870	underground station	24
+2192	fruit, banana	286
+3783	sausage	286
+1193	cigar	88
+12979	recording studio	46
+4847	glass	287
+11916	lotus	72
+1272	seafood	286
+8450	ocelot	67
+13280	carp	65
+13279	red bream	65
+1166	market	44
+12895	folly	18
+1623	owl	62
+11437	mermaid	63
+13275	windbreak	287
+11263	tongs	86
+5228	newspaper, 'Le Figaro'	174
+1800	animal/human	63
+11856	guillemot	62
+1130	bull	67
+1547	hare	67
+13352	badger	67
+13353	lynx	67
+267	ram	67
+907	flying	61
+13358	shearwater	62
+2651	tablet	174
+1704	irony	30
+12422	tile	83
+6849	cage	287
+5590	Spitalfields, Christ Church	9301
+7670	bird of prey	62
+4767	heron	62
+3427	swallow	62
+4599	daffodil	72
+16095	royalty: Prince of Wales, investiture, 1969	38
+3114	politician, president	130
+11190	helicopter	159
+16079	politician, vice president	130
+5717	mine	19
+12799	unicorn	63
+956	cricket	54
+9517	pie	286
+12303	magician	118
+12083	light	6729
+9532	tarot	138
+15754	speed	30
+16575	flag, bunting	287
+2288	towel	88
+930	eagle	62
+8480	nail varnish	88
+2952	explosion	70
+8455	triplets	6904
+6795	spontaneity	6729
+759	pessimism	31
+8685	instructions	166
+5925	plug	81
+5926	switch	81
+11717	order	6729
+18246	misalignment	6729
+15907	opera: Kruchenykh, Malevich, Matyushin, 'Victory Over the Sun'	10058
+5448	ephemerality	30
+13233	napkin	88
+13234	mosaic	80
+13341	coat hook	82
+3578	cupboard	82
+4783	match	85
+584	balcony	17
+17031	stopwatch	172
+5094	director - film / television	118
+3039	tin can	170
+13249	traffic lights	28
+5896	paint, brushstroke	80
+10533	matador	123
+1673	target	285
+8618	love - heart	163
+8687	sea poppy	72
+6695	sound	30
+4678	ripple	70
+5444	glider	159
+3572	apple	1809
+2270	blossom	1809
+12590	mushroom	72
+4357	void	30
+16101	teasle	72
+8806	revolution	155
+8552	vegetable, kale	286
+12968	question mark	166
+16289	flag, China	287
+16288	flag, USSR	287
+8678	ship, warship, 'HMS Indefatigable'	161
+8682	ship, warship, 'HMS Inflexible'	161
+8681	ship, warship, 'HMS Invincible'	161
+9360	reaper	79
+10156	tarot card	169
+233	politics: Cold War, post-1945	38
+482	Latin text	166
+13540	shot	178
+5128	television	81
+10932	sin	5731
+10070	jellyfish	65
+6501	fish, kipper	286
+16120	swastika	166
+21127	photography lamp	80
+9435	traction engine	86
+9076	tail	64
+1970	handkerchief	88
+2957	crown of thorns	169
+5738	halo	5731
+8650	tennis	54
+12781	harem	41
+9451	sling	90
+4200	chalice	169
+9429	host	169
+6595	empress	869
+10104	monocle	88
+10229	baker	180
+4775	hand mirror	88
+863	gender	158
+5349	philosophy	149
+5908	professor	121
+13180	hollyhock	72
+13179	hydrangea	72
+4484	silence	30
+6409	moth	66
+8576	tortoise	68
+8575	turtle	68
+17122	peace - dove	1030
+8752	rearing	61
+4099	shutter	82
+5195	splash	70
+2073	nail	287
+3713	dustbin lid	83
+8465	crocodile	68
+4570	vegetable, carrot	286
+3073	skiing	54
+1726	bus	160
+765	car	160
+10026	designer	124
+3304	suitcase	88
+7330	washing machine	81
+11234	pin sculpture matrix	89
+10073	snow boarding	54
+5089	shower	82
+13399	ornament	82
+4055	power station	46
+4059	hair	93
+16365	orifice	93
+13990	x-ray	171
+16882	ship, warship, 'Prinz Eugen'	161
+3465	exhilaration	31
+2052	toilet paper	83
+5692	swimming pool	18
+6773	sorcerer	138
+13241	receipt	174
+5145	magazine - non-specific	174
+17397	snorkelling	54
+17845	nursery rhyme, 'Ring-a-ring of roses'	57
+9342	radiator	85
+19652	worker - non specific	130
+1302	studio assistant	118
+6122	politics: Chinese-German relations, 1980s	38
+6120	politics: Communism	38
+6121	politics: Germany, division, post-1945	38
+6434	period: Mayan civilisation	38
+9901	share trading	180
+3188	missile	90
+14453	tear	93
+17428	ship, steam, 'Ngahere'	161
+17430	ship, steam, 'SS Plympton'	161
+6314	rosary	169
+7350	volcanic eruption	70
+19806	signature	166
+19431	politics: USSR, dissolution, 1990-91	38
+14537	politics: Arab-Israeli dispute	38
+16052	knowledge - book	1030
+3689	poplar	1809
+5250	psychology, Jung	149
+16382	hangover	178
+16091	time - nail	1030
+9338	mistletoe	72
+10269	time - mouse	1030
+2535	flea	66
+11862	screw	287
+6921	enclosure	30
+16053	relic	169
+9407	typist	180
+12077	mud	70
+19663	goblet	84
+3214	fig leaf	1809
+1308	ecology	158
+10128	pizza	286
+1787	torture	158
+13484	death: Jean-Paul Marat, assassination, 13 Jul 1793	38
+13483	revolution: French Revolution, 1789-99	38
+1814	giant	63
+4080	tobacconist	180
+12971	voyeurism	157
+16654	watching television	52
+18236	pixelation	6729
+3490	sperm	93
+6724	childhood	146
+13254	test tube	172
+12989	vegetable, onion	286
+5889	straw	287
+10161	rodent	67
+2653	recoiling	177
+3776	gallows	28
+11992	trunk	170
+16299	plastic surgery	6927
+8055	perception - green	163
+4575	plant room	46
+1060	courage	31
+1027	lightbulb	85
+1586	bone	93
+6930	fashion	6927
+7665	ostrich	62
+5355	child abuse	158
+3707	pregnancy	146
+11895	spaghetti	286
+12079	sand	70
+5468	placard	174
+18183	climbing frame	285
+15563	stigmata	133
+17529	protests and unrest: strike, National Union of Mineworkers, 1984	38
+2308	net	287
+8598	pornography	158
+2050	toilet	82
+3966	psychology, Freud	149
+15317	salmon	65
+14748	urinating	175
+3589	spider	66
+11237	launderette	44
+15932	weevil	66
+3590	wasp	66
+16029	windchime	287
+15934	mulberry	1809
+12760	bone	64
+6739	dynamism	6729
+6780	subconscious	31
+3889	womb	93
+16890	politics: America, foreign policy, post 1945	38
+3999	tape recorder	81
+11878	public lavatory	44
+14482	library	44
+17362	revolution: Serbia, '5th October Overthrow', 5 October 2000	38
+2893	ice	70
+17410	pick-up truck	160
+771	screen	82
+17457	tadpole	65
+17473	sport: Commonwealth Games, Edinburgh, Sep 1986	38
+10522	growth	30
+3412	refuse	287
+18592	photographic studio	46
+18660	politics: Lebanon	38
+18256	politics: Argentina, 'The Dirty War', 1976-1983	38
+18293	ship, sailing, 'Libertad'	161
+18269	newspaper, 'L'Osservatore Romano'	174
+18270	human rights	158
+18381	rubber ring	89
+18481	design	6927
+18559	waste storage facility	19
+21821	secrecy	30
+16446	technology	149
+18555	film: DeMille, Cecil B., 'The Ten Commandments'	10058
+14796	waiting room	44
+15292	football	54
+1637	photograph	80
+15430	magazine, 'Time'	174
+18373	protests and unrest: Greenham Common Peace Camp, 1980s	38
+14640	hotel	44
+19640	politics: Democratic Republic of Congo, transitional government, 2003-2006	38
+3585	modernist	22
+4576	piping	86
+19440	society: Kalkerfeld settlement, development, 1928	38
+7737	weaving	124
+3975	sink	82
+2210	pendant	88
+2963	ranger	117
+12576	virginity - hair	163
+14255	wealth - pearls	8024
+6717	leaping	92
+5874	mechanic	124
+959	machine age	158
+6721	frying pan	84
+1918	carnation	72
+2213	dahlia	72
+14755	phlox	72
+14756	sweet william	72
+1579	cushion	82
+1243	stick	90
+19547	producer	118
+3553	charity - woman and child	1030
+617	uncertainty - falling	163
+6274	infinity	30
+6553	perch	287
+17256	tennis player	123
+1162	flat	26
+5003	tinker	124
+19616	tree of life	5731
+6735	balance	6729
+16736	shorts	88
+18440	dummy	88
+12591	architect	124
+4212	micro-organism	66
+3979	visor	88
+13562	gliding	54
+6381	sea bed	73
+5751	prayer wheel	169
+5746	salvation	5731
+15795	war - armour	8024
+5755	swan-upping	117
+8100	mourning - candle	8024
+5757	silo	14
+884	ice	77
+1251	shed	18
+17502	weight	6729
+13395	mannequin	89
+6988	supernova	69
+4354	knuckle	93
+1404	top	89
+19661	decanter	84
+10057	nursery rhyme, 'Sing a Song of Sixpence'	57
+4239	thumb	93
+19375	film: Latham, John, 'Unedited Material from the Star'	10058
+18465	politics: Francoist Spain, 1939-1975	38
+5882	rocket	90
+14307	masque: Crowne, John, 'Calisto'	10058
+17666	psychology, Klein	149
+7771	facade	17
+1743	pedlar	180
+12481	wisdom - book	163
+468	aerial view	28
+6421	hawk	62
+2828	doctor	127
+5927	counter	82
+16860	footballer	123
+1200	easel	80
+3317	toothbrush	88
+3318	toothpaste	88
+6908	father	6904
+21770	ship, galley	161
+5251	totem pole	169
+3886	rebirth - chrysalis	164
+17209	muzzle	287
+7718	hoe	79
+2995	firewood	85
+16653	neck	93
+791	screaming	177
+5257	photography	51
+10429	playboy	6927
+10885	pawnbroker	180
+4705	knot	287
+2720	trainer	123
+5452	tobogganing	52
+8541	ticket	174
+15448	tallit	169
+825	industrialist	124
+7912	politics: Czechoslovakia, British non-intervention, 1938	38
+19603	playing	61
+17014	talisman	169
+15454	sacrament	133
+4251	sand bag	287
+19542	magazine, 'Once a Week'	174
+7264	surgical instrument	171
+2939	struck by lightning	178
+2552	seaweed	72
+18164	suspension	6729
+12603	sociologist	121
+14438	mammal - non-specific	67
+18460	sculpture, Palaeolithic	80
+16906	huntsman	117
+603	groom	123
+8074	winter - old man	8026
+1979	puffin	62
+19024	seal	65
+15862	treason	155
+6682	symbol, paleolithic	166
+15352	modern life - acrobat	8024
+736	bed	82
+5587	existence	30
+12130	soul - bird	165
+10636	vegetable, turnip	286
+13544	unemployment	156
+4750	iris	72
+242	crowd	97
+15554	sweet pea	72
+19509	Coker, Peter, painting, 'Table and Chair'	10639
+16166	ritual	5731
+3569	royalty: Elizabeth II, coronation, 2 Jun 1953	38
+6262	walnut	1809
+15936	narcissism	31
+6464	crockery	84
+3596	life - blood	164
+15727	politics: First Reform Act, 1832	38
+682	brothel	43
+15740	terrorism	155
+17068	matador costume	151
+17067	picador	123
+13754	society: America, colonization, 17th c.	38
+17062	politics: Israel, foundation, 1948	38
+12599	explorer	121
+4768	swamp	76
+4997	revolution: Hungarian Uprising, Nov 1954	38
+4341	circus performer	118
+1951	flask	170
+2542	planet	69
+1183	bread	286
+6636	cake	286
+2242	plane	1809
+3384	dockyard	19
+10637	vegetable, swede	286
+4792	tram	160
+7719	instrument, panpipes	80
+17328	sculpture, African	80
+2680	instrument, pipe	80
+610	dog, foxhound	67
+1938	roller skating	52
+1996	warmth - beeswax	1030
+16590	slowness - iron	1030
+16589	speed - copper	1030
+4456	parachuting	54
+7904	vine leaf	1809
+7007	miller	124
+14759	propeller	161
+16259	train driver	180
+19593	rejection - muck spreading	163
+18472	Matisse, Henri	10639
+485	primrose	72
+2569	freedom - angel	1030
+2735	society: Waterloo Bridge, opening, 18 Jun 1817	38
+8094	peasant life - pumpkin	8024
+3522	whirlpool	70
+2232	shooting gallery	43
+15500	loyalty - dog	163
+1804	muff	88
+4207	dedication	166
+7305	salvaging	124
+7141	rescuing	177
+20394	stratum	71
+9364	painting materials	80
+14792	symbol, radiation	166
+20788	society: West Indies, British colonization	38
+16373	racket	285
+16620	roth	72
+5092	sandpiper	62
+17199	pomposity	31
+19512	period: Etruscan	38
+2915	procreation	146
+7254	games machine	285
+5149	hatred	31
+10926	idol	5731
+5252	starfish	65
+6767	creativity	31
+9592	cosmos	30
+8213	period: Renaissance	38
+3785	oar	161
+16306	speed - hare	1030
+9550	death - sunset	164
+12127	rope-making	124
+14439	politics: Cardinal Wolsey, disgrace, 1529	38
+5681	woodpecker	62
+12141	harpoon	90
+16965	protests and unrest: Peasants' Revolt, 1381	38
+3074	courtier	869
+6431	sculpture, Olmec	80
+1853	instrument, guitar	80
+17078	horror - split pomegranate	163
+5364	prejudice	158
+16238	ship, tanker, Alba	161
+16823	bird table	79
+15895	obituary	166
+5986	video recorder	81
+11488	tank	86
+10928	royalty: James I, arrival in England, 1603	38
+20242	rust	70
+4189	comb	88
+5689	cartouche	17
+6782	heroism	31
+976	death - black	164
+16257	politics: Fascist Italy, 1922-43	38
+4033	oil drum	170
+13032	pharmacy	44
+1171	race	158
+10524	huntsman	123
+12874	pain	178
+5564	pin	287
+2053	lavatory	41
+13776	pearl	64
+1920	hermit	120
+13205	tights	88
+2361	illegitimacy	158
+5595	disguise	153
+14739	telephone kiosk	24
+10181	medical apparatus	171
+6933	cultural icon	6927
+15026	urinal	82
+12785	moose	67
+12766	politics: Scotland, devolution, 1999	38
+18858	project:  Tracey Emin and Sarah Lucas, 'The Shop', Bethnal Green Road, London, 1993	18725
+4414	dog, King Charles spaniel	67
+1309	newspaper, 'The Guardian'	174
+15030	locker	82
+789	deformity	178
+15955	horseshoe	79
+18344	victory - winged male figure	1030
+16844	soap	83
+16560	fruit, soursop	286
+3081	fireman	130
+11312	pedestal	17
+11253	feeding livestock	117
+555	bottle	170
+14745	scratching	175
+15019	satchel	88
+18363	manga	6927
+16898	politics: Situationist International, 1960s	38
+16840	protests and unrest: Paris uprising, May 1968	38
+17327	philosophy, Existentialism	149
+3909	gorse	72
+10505	swing	52
+1652	toy	89
+17309	emigration / immigration	6927
+18096	meditation	5731
+1441	protecting	177
+2268	rush	72
+15017	snake bite	178
+9909	peat burning	117
+12609	education	149
+624	mural	80
+5113	birch	1809
+10422	hop	72
+6503	nose	93
+5266	marching	92
+9928	straitjacket	171
+9725	leg/legs raised	92
+7154	governor	130
+4001	horn	64
+15865	exercising	54
+15866	publican	180
+8979	investiture	155
+14747	sneezing	175
+4671	spread-eagled	92
+4320	haunting	138
+12246	thunderbolt	169
+10401	music: Mozart, Wolfgang Amadeus	10058
+815	marsh	71
+7964	washing tub	83
+6926	widower	6904
+12595	docker	180
+6049	orchestra	53
+1463	griffin	63
+264	bowl	170
+2085	hands crossed	92
+11446	Rubens, Peter Paul, drawing, 'Isabella Brant'	10639
+10922	god	141
+11438	goddess	141
+1118	drinking	61
+10917	saint	136
+5982	cellar	41
+1063	Spain	108
+5649	spinning wheel	86
+9679	alder	1809
+5028	water tank	28
+10417	blackberry	72
+3655	bramble	72
+10419	deadnettle	72
+10421	water plantain	72
+6016	warder	125
+3744	plasterwork	80
+10448	panther	67
+11434	politics: Oliver Cromwell, refusing crown, 1657	38
+11432	politics: Long Parliament, dissolution, 20 Apr 1653	38
+11463	trophy	169
+1052	hoop	89
+10888	snuff	88
+16204	del Sarto, Andrea, painting	10639
+9937	grindstone	86
+9653	camera	172
+276	carrying	175
+1403	serpent	63
+9658	trident	169
+9661	hypocrisy	31
+2544	orb	169
+3883	meteor	69
+10947	book, Barlow, Francis, 'Birds and Beasts'	174
+7698	dovecote	14
+7660	magpie	62
+7661	sparrow	62
+7669	tom tit	62
+10943	book, Barlow, Francis, 'Birds and Fowles of Various Species'	174
+7675	ruff	62
+5486	nurse	127
+11451	petticoat	88
+3712	trousers	88
+4032	clergyman	120
+7835	font	169
+7653	lapwing	62
+5674	crow	62
+6775	raven	62
+5747	devil	5731
+6515	partridge	62
+486	nest	64
+854	armour	88
+7763	society: London Bridge, opening, 1 Aug 1831	38
+20127	inscription - non-specific	166
+13237	mathematics, Fibonacci	149
+18244	moebius strip	172
+17406	surfing	54
+17378	quadrant	172
+2169	hood	88
+17550	book, Beckford, William, 'Vathek'	174
+17549	book, Melville, Herman, 'La Véranda'	174
+17548	book, Melville, Herman, 'The Piazza Tales'	174
+10060	opera: Wagner, Richard, 'Parsifal'	10058
+17314	sound	6729
+11205	psychology	149
+17456	scent	6729
+5174	light, neon	85
+17569	society: Grenada, French colonization, 1651	38
+17248	western society	158
+17575	magazine, 'Boxing'	174
+10623	ceramics	80
+1649	coffee pot	84
+18372	incense	169
+14338	pot	84
+7688	nomad	6927
+21388	paranoia	31
+877	dysfunction	30
+12972	footprint	93
+7039	painting, miniature	80
+19385	tension - strings	1030
+17582	politics: Lord Althorp, election, Dec 1830	38
+17896	politics: Brazil	38
+21051	recycling	6927
+17854	pine needle	1809
+17662	pin board	287
+17668	vessel	170
+10052	philosophy, Hegel	149
+6828	postman	130
+11189	rack	82
+18621	ship, dredger	161
+17671	human/machine	63
+17579	iron	81
+17665	stocks	287
+738	sheet	82
+17636	politics: Anglo-Maratha treaty, 1790	38
+10338	plant/human	63
+15901	fragility	6729
+19389	sawing	124
+19658	coffin	169
+19391	security guard	180
+8609	record player	81
+19393	vortex	70
+19394	window dresser	180
+18382	swimming cap	88
+2855	braces	88
+13787	boules	52
+21627	pigeon racing	52
+16455	guard	128
+21633	shuttlecock	285
+21635	parallel bars	285
+17566	waiting	175
+15206	souvenir	287
+21309	mortality - flies	164
+17670	tank	170
+6867	notice	174
+16385	double-headed figure	63
+17306	hybrid animal	63
+17992	underpass	28
+19651	society: American Old West, 19th c.	38
+18546	vent	17
+17633	society: Paternoster Square Column, 2003	38
+6676	senses	93
+17672	harness	88
+18552	finger	93
+17699	heart	166
+5682	psychiatry	156
+18397	Hunt, William Holman, 'The Triumph of the Innocents'	10639
+18239	society: Case Study Houses, 1945-1966	38
+18535	pod	72
+18534	politics: Union of the Crowns, March 1603	38
+18644	psychoanalyst	127
+18348	paleontologist	121
+19434	puddle	70
+18602	training shoes	285
+18190	plastic sheet	287
+18189	mold	70
+19406	struggle - crutch	1030
+5339	political protest	155
+19411	philosophy, 'pataphysics	149
+19428	trickery - hare	1030
+12833	cultural identity	6927
+21163	togetherness - two circles	1030
+18245	uncertainty	31
+3965	viscera	93
+19459	renewal - blood	1030
+17813	human/rock	63
+18474	pigment	80
+4360	displacement	158
+21112	injured	61
+5921	fruit, orange	286
+11884	pyjamas	88
+21103	table tennis	54
+21033	wool	64
+21598	music: Wonder, Stevie, 'Happier than the Morning Sun'	10058
+16255	filing cabinet	82
+17500	card index	174

@@ -13,8 +13,8 @@ class Artist(models.Model):
     artist_id = models.AutoField(primary_key=True)
     artist_name = models.CharField(max_length=100)
     gender = models.ForeignKey('Gender', models.DO_NOTHING, blank=True, null=True)
-    birth_place = models.ForeignKey('Place', models.DO_NOTHING, blank=True, null=True)
-    death_place = models.ForeignKey('Place', models.DO_NOTHING, blank=True, null=True)
+    birth_place = models.ForeignKey('Place', related_name='birth_place', blank=True, null=True, on_delete=models.CASCADE)
+    death_place = models.ForeignKey('Place', related_name='death_place', blank=True, null=True, on_delete=models.CASCADE)
     birth_year = models.IntegerField(blank=True, null=True)
     death_year = models.IntegerField(blank=True, null=True)
 
@@ -152,7 +152,7 @@ class ArtworkSubject(models.Model):
     class Meta:
         managed = False
         db_table = 'artwork_subject'
-        ordering = ['artwork', 'suject']
+        ordering = ['artwork', 'subject']
         verbose_name = 'Gallery Artwork Subject'
         verbose_name_plural = 'Gallery Artwork Subjects'
 

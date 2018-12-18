@@ -441,100 +441,100 @@ SELECT artist_role_name
 
 DROP TEMPORARY TABLE temp_artist_role;
 
--- --
--- -- artwork
--- --
+--
+-- artwork
+--
 
--- -- Temporary target table for artwork data import
--- CREATE TEMPORARY TABLE temp_artwork
---   (
---     id INTEGER NOT NULL AUTO_INCREMENT UNIQUE,
---     accesion_number CHAR(6) NOT NULL,
---     title VARCHAR(999) NOT NULL,
---     artist VARCHAR(100) NOT NULL,
---     artistRole VARCHAR(45) NOT NULL,
---     dateText VARCHAR(100) NOT NULL,
---     medium VARCHAR(100) NOT NULL,
---     creditLine VARCHAR(999) NOT NULL,    
---     acquisitionYear INT NOT NULL,
---     width INT NULL,
---     height INT NULL,
---     depth INT NULL,
---     PRIMARY KEY (id)
---   )
--- ENGINE=InnoDB
--- CHARACTER SET utf8mb4
--- COLLATE utf8mb4_0900_ai_ci;
+-- Temporary target table for artwork data import
+CREATE TEMPORARY TABLE temp_artwork
+  (
+    id INTEGER NOT NULL AUTO_INCREMENT UNIQUE,
+    accession_number CHAR(6) NOT NULL,
+    title VARCHAR(999) NOT NULL,
+    artist VARCHAR(100) NOT NULL,
+    artistRole VARCHAR(45) NOT NULL,
+    dateText VARCHAR(100) NOT NULL,
+    medium VARCHAR(100) NOT NULL,
+    creditLine VARCHAR(999) NOT NULL,    
+    acquisitionYear INT NOT NULL,
+    width INT NULL,
+    height INT NULL,
+    depth INT NULL,
+    PRIMARY KEY (id)
+  )
+ENGINE=InnoDB
+CHARACTER SET utf8mb4
+COLLATE utf8mb4_0900_ai_ci;
 
--- -- Load data from external file.
--- -- Check for blank entries and set to NULL.
+-- Load data from external file.
+-- Check for blank entries and set to NULL.
 
--- LOAD DATA LOCAL INFILE '/Users/a1/Desktop/2018_fall/SI664/final_project/github/collection/artwork_data.csv'
--- INTO TABLE temp_artwork
---   CHARACTER SET utf8mb4
--- --   FIELDS TERMINATED BY '\t'
---   FIELDS TERMINATED BY ','
---   ENCLOSED BY '"'
---   LINES TERMINATED BY '\n'
---   -- LINES TERMINATED BY '\r\n'
---   IGNORE 1 LINES
---   (@dummy, accesion_number, artist, artistRole, @dummy, title, dateText, medium,
---    creditLine, @dummy, acquisitionYear, @dummy, width, height, depth, @dummy, @dummy, @dummy, @dummy, @dummy)
+LOAD DATA LOCAL INFILE '/Users/a1/Desktop/2018_fall/SI664/final_project/github/collection/artwork_data.csv'
+INTO TABLE temp_artwork
+  CHARACTER SET utf8mb4
+--   FIELDS TERMINATED BY '\t'
+  FIELDS TERMINATED BY ','
+  ENCLOSED BY '"'
+  LINES TERMINATED BY '\n'
+  -- LINES TERMINATED BY '\r\n'
+  IGNORE 1 LINES
+  (@dummy, accession_number, artist, artistRole, @dummy, title, dateText, medium,
+   creditLine, @dummy, acquisitionYear, @dummy, width, height, depth, @dummy, @dummy, @dummy, @dummy, @dummy)
 
---   SET width = IF(width = '', NULL, width),
---   height = IF(height = '', NULL, height),
---   depth = IF(depth = '', NULL, depth);
+  SET width = IF(width = '', NULL, width),
+  height = IF(height = '', NULL, height),
+  depth = IF(depth = '', NULL, depth);
 
--- -- Insert
--- CREATE TABLE IF NOT EXISTS artwork
---   (
---     artwork_id INTEGER NOT NULL AUTO_INCREMENT UNIQUE,
---     artwork_name VARCHAR(999) NOT NULL,
---     accesion_number CHAR(6) NOT NULL,
---     artist_id INTEGER NOT NULL,
---     artist_role_id INTEGER NOT NULL,
---     date_text VARCHAR(100) NOT NULL,
---     medium VARCHAR(100) NOT NULL,
---     credit_line VARCHAR(999) NOT NULL,    
---     acquisition_year INT NOT NULL,
---     width INT NULL,
---     height INT NULL,
---     depth INT NULL,
---     PRIMARY KEY (artwork_id),
---     FOREIGN KEY (artist_id) REFERENCES artist(artist_id)
---     ON DELETE RESTRICT ON UPDATE CASCADE,
---     FOREIGN KEY (artist_role_id) REFERENCES artist_role(artist_role_id)
---     ON DELETE RESTRICT ON UPDATE CASCADE
---   )
--- ENGINE=InnoDB
--- CHARACTER SET utf8mb4
--- COLLATE utf8mb4_0900_ai_ci;
+-- Insert
+CREATE TABLE IF NOT EXISTS artwork
+  (
+    artwork_id INTEGER NOT NULL AUTO_INCREMENT UNIQUE,
+    artwork_name VARCHAR(999) NOT NULL,
+    accession_number CHAR(6) NOT NULL UNIQUE,
+    artist_id INTEGER NOT NULL,
+    artist_role_id INTEGER NOT NULL,
+    date_text VARCHAR(100) NOT NULL,
+    medium VARCHAR(100) NOT NULL,
+    credit_line VARCHAR(999) NOT NULL,    
+    acquisition_year INT NOT NULL,
+    width INT NULL,
+    height INT NULL,
+    depth INT NULL,
+    PRIMARY KEY (artwork_id),
+    FOREIGN KEY (artist_id) REFERENCES artist(artist_id)
+    ON DELETE RESTRICT ON UPDATE CASCADE,
+    FOREIGN KEY (artist_role_id) REFERENCES artist_role(artist_role_id)
+    ON DELETE RESTRICT ON UPDATE CASCADE
+  )
+ENGINE=InnoDB
+CHARACTER SET utf8mb4
+COLLATE utf8mb4_0900_ai_ci;
 
--- INSERT IGNORE INTO artwork
---   (
---     artwork_name,
---     accesion_number,
---     artist_id,
---     artist_role_id,
---     date_text,
---     medium,
---     credit_line,    
---     acquisition_year,
---     width,
---     height,
---     depth
---   )
--- SELECT ta.title, ta.accesion_number, a.artist_id, ar.artist_role_id, ta.dateText, ta.medium, ta.creditLine, ta.acquisitionYear, ta.width, ta.height, ta.depth
---   FROM temp_artwork ta
---        LEFT JOIN artist a
---               ON ta.artist = a.artist_name
---        LEFT JOIN artist_role ar
---               ON ta.artistRole = ar.artist_role_name
---  WHERE IFNULL(ta.artist, 0) = IFNULL(a.artist_name, 0)
---    AND IFNULL(ta.artistRole, 0) = IFNULL(ar.artist_role_name, 0)
---  ORDER BY ta.title;
+INSERT IGNORE INTO artwork
+  (
+    artwork_name,
+    accession_number,
+    artist_id,
+    artist_role_id,
+    date_text,
+    medium,
+    credit_line,    
+    acquisition_year,
+    width,
+    height,
+    depth
+  )
+SELECT ta.title, ta.accession_number, a.artist_id, ar.artist_role_id, ta.dateText, ta.medium, ta.creditLine, ta.acquisitionYear, ta.width, ta.height, ta.depth
+  FROM temp_artwork ta
+       LEFT JOIN artist a
+              ON ta.artist = a.artist_name
+       LEFT JOIN artist_role ar
+              ON ta.artistRole = ar.artist_role_name
+ WHERE IFNULL(ta.artist, 0) = IFNULL(a.artist_name, 0)
+   AND IFNULL(ta.artistRole, 0) = IFNULL(ar.artist_role_name, 0)
+ ORDER BY ta.title;
 
--- DROP TEMPORARY TABLE temp_artwork;
+DROP TEMPORARY TABLE temp_artwork;
 
 --
 -- subject
@@ -608,3 +608,68 @@ UPDATE `subject` AS s
     );
 
 DROP TEMPORARY TABLE temp_subject;
+
+--
+-- Link artworks to subjects
+--
+
+-- Junction table linking artworks to subjects (many-to-many).
+-- WARN: Django 2.x ORM does not recognize compound keys. Add otherwise superfluous primary key
+-- to accommodate a weak ORM.
+
+-- Create temporary table to store the relationship
+CREATE TEMPORARY TABLE temp_relationship
+  (
+    id INTEGER NOT NULL AUTO_INCREMENT UNIQUE,
+    accession_number CHAR(6) NOT NULL,
+    subject_original_id INT NOT NULL,
+    PRIMARY KEY (id)
+  )
+ENGINE=InnoDB
+CHARACTER SET utf8mb4
+COLLATE utf8mb4_0900_ai_ci;
+
+-- Load data from external file.
+-- Check for blank entries and set to NULL.
+LOAD DATA LOCAL INFILE '/Users/a1/Desktop/2018_fall/SI664/final_project/github/collection/output/artwork_subject.csv'
+INTO TABLE temp_relationship
+  CHARACTER SET utf8mb4
+  FIELDS TERMINATED BY '\t'
+  -- FIELDS TERMINATED BY ','
+  ENCLOSED BY '"'
+  LINES TERMINATED BY '\n'
+  -- LINES TERMINATED BY '\r\n'
+  IGNORE 1 LINES
+  (accession_number, subject_original_id, @dummy);
+
+CREATE TABLE IF NOT EXISTS artwork_subject
+  (
+    artwork_subject_id INTEGER NOT NULL AUTO_INCREMENT UNIQUE,
+    artwork_id INTEGER NOT NULL,
+    subject_id INTEGER NOT NULL,
+    PRIMARY KEY (artwork_subject_id),
+    FOREIGN KEY (artwork_id) REFERENCES artwork(artwork_id)
+    ON DELETE CASCADE ON UPDATE CASCADE,
+    FOREIGN KEY (subject_id) REFERENCES `subject`(subject_id)
+    ON DELETE CASCADE ON UPDATE CASCADE
+  )
+ENGINE=InnoDB
+CHARACTER SET utf8mb4
+COLLATE utf8mb4_0900_ai_ci;
+
+-- Insert
+INSERT IGNORE INTO artwork_subject
+  (
+    artwork_id,
+    subject_id
+  )
+SELECT a.artwork_id,
+       s.subject_id
+  FROM temp_relationship tr
+       LEFT JOIN artwork a
+              ON tr.accession_number = a.accession_number
+       LEFT JOIN `subject` s
+              ON tr.subject_original_id = s.original_id
+ ORDER BY tr.id;
+
+DROP TEMPORARY TABLE temp_relationship;

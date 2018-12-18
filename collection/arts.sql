@@ -532,7 +532,7 @@ SELECT ta.title, ta.accession_number, a.artist_id, ar.artist_role_id, ta.dateTex
               ON ta.artistRole = ar.artist_role_name
  WHERE IFNULL(ta.artist, 0) = IFNULL(a.artist_name, 0)
    AND IFNULL(ta.artistRole, 0) = IFNULL(ar.artist_role_name, 0)
- ORDER BY ta.title;
+ ORDER BY ta.accession_number;
 
 DROP TEMPORARY TABLE temp_artwork;
 

@@ -22,12 +22,13 @@ from django.http import HttpResponseRedirect
 from django.urls import path, include
 
 urlpatterns = [
-    url(r'^$', lambda r: HttpResponseRedirect('artworks/')),
-    url(r'^admin/', admin.site.urls),
-    url(r'^artworks/', include('artworks.urls')),
+    path('', lambda r: HttpResponseRedirect('artworks/')),
+    path('admin/', admin.site.urls),
+    path('artworks/', include('artworks.urls')),
     # path('auth/', include('social_django.urls', namespace='social')),
     # path('login/', LoginView.as_view(), name='login'),
     # path('logout/', LogoutView.as_view(), {'next_page': settings.LOGOUT_REDIRECT_URL},
     #      name='logout'),
     # path('api-auth/', include('rest_framework.urls')),
-] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
+] 
+# + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)

@@ -42,7 +42,7 @@ SET FOREIGN_KEY_CHECKS=1;
 --     sub_region_name VARCHAR(100) NOT NULL UNIQUE,
 --     region_id INTEGER NOT NULL,
 --     PRIMARY KEY (sub_region_id),
---     FOREIGN KEY (region_id) REFERENCES region(region_id) ON DELETE RESTRICT ON UPDATE CASCADE
+--     FOREIGN KEY (region_id) REFERENCES region(region_id) ON DELETE CASCADE ON UPDATE CASCADE
 --   )
 -- ENGINE=InnoDB
 -- CHARACTER SET utf8mb4
@@ -109,7 +109,7 @@ SET FOREIGN_KEY_CHECKS=1;
 --     intermediate_region_name VARCHAR(100) NOT NULL UNIQUE,
 --     sub_region_id INTEGER NOT NULL,
 --     PRIMARY KEY (intermediate_region_id),
---     FOREIGN KEY (sub_region_id) REFERENCES sub_region(sub_region_id) ON DELETE RESTRICT
+--     FOREIGN KEY (sub_region_id) REFERENCES sub_region(sub_region_id) ON DELETE CASCADE
 --     ON UPDATE CASCADE
 --   )
 -- ENGINE=InnoDB
@@ -201,11 +201,11 @@ SET FOREIGN_KEY_CHECKS=1;
 --     iso_alpha3_code CHAR(3) NOT NULL,s
 --     PRIMARY KEY (country_area_id),
 --     FOREIGN KEY (region_id) REFERENCES region(region_id)
---     ON DELETE RESTRICT ON UPDATE CASCADE,
+--     ON DELETE CASCADE ON UPDATE CASCADE,
 --     FOREIGN KEY (sub_region_id) REFERENCES sub_region(sub_region_id)
---     ON DELETE RESTRICT ON UPDATE CASCADE,
+--     ON DELETE CASCADE ON UPDATE CASCADE,
 --     FOREIGN KEY (intermediate_region_id) REFERENCES intermediate_region(intermediate_region_id)
---     ON DELETE RESTRICT ON UPDATE CASCADE,
+--     ON DELETE CASCADE ON UPDATE CASCADE,
 --    )
 -- ENGINE=InnoDB
 -- CHARACTER SET utf8mb4
@@ -358,11 +358,11 @@ CREATE TABLE IF NOT EXISTS artist
     death_year INT NULL,
     PRIMARY KEY (artist_id),
     FOREIGN KEY (gender_id) REFERENCES gender(gender_id)
-    ON DELETE RESTRICT ON UPDATE CASCADE,
+    ON DELETE CASCADE ON UPDATE CASCADE,
     FOREIGN KEY (birth_place_id) REFERENCES place(place_id)
-    ON DELETE RESTRICT ON UPDATE CASCADE,
+    ON DELETE CASCADE ON UPDATE CASCADE,
     FOREIGN KEY (death_place_id) REFERENCES place(place_id)
-    ON DELETE RESTRICT ON UPDATE CASCADE
+    ON DELETE CASCADE ON UPDATE CASCADE
   )
 ENGINE=InnoDB
 CHARACTER SET utf8mb4
@@ -502,9 +502,9 @@ CREATE TABLE IF NOT EXISTS artwork
     depth INT NULL,
     PRIMARY KEY (artwork_id),
     FOREIGN KEY (artist_id) REFERENCES artist(artist_id)
-    ON DELETE RESTRICT ON UPDATE CASCADE,
+    ON DELETE CASCADE ON UPDATE CASCADE,
     FOREIGN KEY (artist_role_id) REFERENCES artist_role(artist_role_id)
-    ON DELETE RESTRICT ON UPDATE CASCADE
+    ON DELETE CASCADE ON UPDATE CASCADE
   )
 ENGINE=InnoDB
 CHARACTER SET utf8mb4
@@ -593,7 +593,7 @@ ALTER TABLE `subject`
         ADD COLUMN parent_subject_id INT NULL DEFAULT 1 AFTER subject_name,
         ADD CONSTRAINT subject_fk_parent_subject_id
             FOREIGN KEY (parent_subject_id) REFERENCES `subject`(subject_id)
-            ON DELETE RESTRICT ON UPDATE CASCADE;
+            ON DELETE CASCADE ON UPDATE CASCADE;
 
 -- update the parent_subject_id
 UPDATE `subject` AS s

@@ -1,4 +1,4 @@
-{% extends 'heritagesites/base.html' %}
+{% extends 'artworks/base.html' %}
 
 {% load crispy_forms_tags %}
 
@@ -14,17 +14,17 @@
       </div>
     </div>
     <div class="col-sm-9">
-      {% for site in object_list %}
-        <h4><a class="btn btn-outline-info" href="{% url 'site_detail' site.pk %}"> {{ site.site_name }} </a></h4>
+      {% for artwork in object_list %}
+        <h4><a class="btn btn-outline-info" href="{% url 'artwork_detail' artwork.pk %}"> {{ artwork.artwork_name }} </a></h4>
 
         <!-- add the country_area_names and description template tags -->
-        {% if site.country_area_names %}
+        <!-- {% if artwork.country_area_names %}
           <p> {{ site.country_area_names }} </p>
         {% endif %}
 
-        {% if site.description %}
+        {% if sartworkite.description %}
           <p> {{ site.description }} </p>
-        {% endif %}
+        {% endif %} -->
 
     {% empty %}
       Select one or more filters relevant to your search and then click "filter".

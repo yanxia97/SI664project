@@ -1,0 +1,33 @@
+{% extends 'artworks/base.html' %}
+
+{% block content %}
+  {% if user.is_authenticated %}
+
+    <article>
+      <header>
+        <h2>Artists</h2>
+      </header>
+    
+      <!-- https://www.w3schools.com/bootstrap4/bootstrap_pagination.asp -->
+      {% include 'artworks/pagination.html' %}
+    
+      {% if artists %}
+        {% for artist in artists %}
+          <div class="row">
+            <div class="col-sm-5">
+              <p><a href="{% url 'artist_detail' artist.pk %}">{{ artist.artist_name }}</a></p>
+            </div>
+          </div>
+        {% endfor %}
+      {% else %}
+        <p>No Gallery artists are available to view.</p>
+      {% endif %}
+    
+      <p>Count: {{ artists.count }}</p>
+    </article>
+
+  {% else %}
+    <a href="{% url 'login' %}">Log in</a>
+  {% endif %}
+
+{% endblock content %}}

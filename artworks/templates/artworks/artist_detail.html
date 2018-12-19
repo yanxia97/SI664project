@@ -1,0 +1,68 @@
+{% extends 'artworks/base.html' %}
+
+{% block content %}
+  {% if user.is_authenticated %}
+
+    <h2>{{ artist.artist_name }}</h2>
+    
+      {% if artist.gender.gender_name %}
+        <div class="row">
+          <div class="col-sm-2">
+            <p>Gender</p>
+          </div>
+          <div class="col-sm-10">
+            <p>{{ artist.gender.gender_name }}</p>
+          </div>
+        </div>
+      {% endif %}
+    
+      {% if artist.birth_place.place_name %}
+        <div class="row">
+          <div class="col-sm-2">
+            <p>Birth place</p>
+          </div>
+          <div class="col-sm-10">
+            <p>{{ artist.birth_place.place_name }}</p>
+          </div>
+        </div>
+      {% endif %}
+    
+      {% if artist.death_place.place_name %}
+        <div class="row">
+          <div class="col-sm-2">
+            <p>Death place</p>
+          </div>
+          <div class="col-sm-10">
+            <p>{{ artist.death_place.place_name }}</p>
+          </div>
+        </div>
+      {% endif %}
+    
+      {% if artist.birth_year %}
+        <div class="row">
+          <div class="col-sm-2">
+            <p>Birth year</p>
+          </div>
+          <div class="col-sm-10">
+            <p>{{ artist.birth_year }}</p>
+          </div>
+        </div>
+      {% endif %}
+
+      {% if artist.death_year %}
+        <div class="row">
+          <div class="col-sm-2">
+            <p>Death year</p>
+          </div>
+          <div class="col-sm-10">
+            <p>{{ artist.death_year }}</p>
+          </div>
+        </div>
+      {% endif %}
+
+  {% else %}
+    <a href="{% url 'login' %}">Log in</a>
+  {% endif %}
+
+
+{% endblock content %}

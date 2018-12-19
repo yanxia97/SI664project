@@ -1,4 +1,4 @@
-{% extends 'heritagesites/base.html' %}
+{% extends 'artworks/base.html' %}
 
 {% block content %}
 
@@ -6,33 +6,33 @@
   <header>
     <div class="row">
       <div class="col-sm-11">
-        <h2>UNESCO Heritage Sites</h2>
+        <h2>Tate Collection Artworks</h2>
       </div>
       <div class="col-sm-1">
         {% if user.is_authenticated %}
-          <a class="btn btn-outline-secondary" href="{% url 'site_new' %}">new</a>
+          <a class="btn btn-outline-secondary" href="{% url 'artwork_new' %}">new</a>
         {% endif %}
       </div>
     </div>
   </header>
 
   <!-- WARNING: there is no missing code between <nav>...</nav> -->
-  {% include 'heritagesites/pagination.html' %}
+  {% include 'artworks/pagination.html' %}
 
-  {% if sites %}
+  {% if artworks %}
   <ul>
-    {% for site in sites %}
+    {% for artwork in artworks %}
 
     <!-- safe filter on for raw HTML stored in database -->
-    <li><a href="{% url 'site_detail' site.pk %}">{{ site.site_name | safe }}</a></li>
+    <li><a href="{% url 'artwork_detail' artwork.pk %}">{{ artwork.artwork_name | safe }}</a></li>
     {% endfor %}
 
   </ul>
   {% else %}
-  <p>No Heritage Sites are available to view.</p>
+  <p>No Artworks are available to view.</p>
   {% endif %}
 
-  <p>page count: {{ sites.count }}</p>
+  <p>page count: {{ artworks.count }}</p>
 </article>
 
 {% endblock content %}}

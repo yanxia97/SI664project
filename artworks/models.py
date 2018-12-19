@@ -7,6 +7,7 @@
 # Feel free to rename the models, but don't rename db_table values or field names.
 
 from django.db import models
+from django.urls import reverse
 
 
 class Artist(models.Model):
@@ -27,6 +28,10 @@ class Artist(models.Model):
 
     def __str__(self):
         return self.artist_name
+
+    def get_absolute_url(self):
+        # return reverse('artist_detail', args=[str(self.id)])
+        return reverse('artist_detail', kwargs={'pk': self.pk})
 
 
 # class Artist(models.Model):
@@ -56,6 +61,10 @@ class ArtistRole(models.Model):
     def __str__(self):
         return self.artist_role_name
 
+    def get_absolute_url(self):
+        # return reverse('artist_detail', args=[str(self.id)])
+        return reverse('artist_detail', kwargs={'pk': self.pk})
+
 # class ArtistRole(models.Model):
 #     artist_role_id = models.AutoField(primary_key=True)
 #     artist_role_name = models.CharField(unique=True, max_length=45)
@@ -80,6 +89,10 @@ class Subject(models.Model):
 
     def __str__(self):
         return self.subject_name
+
+    def get_absolute_url(self):
+        # return reverse('artwork_detail', args=[str(self.id)])
+        return reverse('artwork_detail', kwargs={'pk': self.pk})
 
 # class Subject(models.Model):
 #     subject_id = models.AutoField(primary_key=True)
@@ -117,6 +130,10 @@ class Artwork(models.Model):
 
     def __str__(self):
         return self.artwork_name
+
+    def get_absolute_url(self):
+        # return reverse('artwork_detail', args=[str(self.id)])
+        return reverse('artwork_detail', kwargs={'pk': self.pk})
 
     def subject_display(self):
         """Create a string for subject. This is required to display in the Admin view."""
@@ -180,6 +197,10 @@ class Gender(models.Model):
     def __str__(self):
         return self.gender_name
 
+    def get_absolute_url(self):
+        # return reverse('artwork_detail', args=[str(self.id)])
+        return reverse('artwork_detail', kwargs={'pk': self.pk})
+
 # class Gender(models.Model):
 #     gender_id = models.AutoField(primary_key=True)
 #     gender_name = models.CharField(unique=True, max_length=10)
@@ -202,6 +223,10 @@ class Place(models.Model):
 
     def __str__(self):
         return self.place_name
+
+    def get_absolute_url(self):
+        # return reverse('artwork_detail', args=[str(self.id)])
+        return reverse('artwork_detail', kwargs={'pk': self.pk})
 
 # class Place(models.Model):
 #     place_id = models.AutoField(primary_key=True)

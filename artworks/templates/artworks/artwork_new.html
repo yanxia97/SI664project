@@ -14,51 +14,72 @@
 
     <div class="row">
       <div class="col-6">
-        {{ form.heritage_site_category|as_crispy_field }}
+        {{ form.artwork_name|as_crispy_field }}
       </div>
     </div>
 
     <div class="row">
       <div class="col-6">
-        {{ form.country_area|as_crispy_field }}
+        {{ form.accession_number|as_crispy_field }}
       </div>
     </div>
 
     <div class="row">
       <div class="col-6">
-        {{ form.site_name|as_crispy_field }}
+        {{ form.artist|as_crispy_field }}
       </div>
     </div>
 
     <div class="row">
       <div class="col-6">
-        {{ form.description|as_crispy_field }}
+        {{ form.artist_role|as_crispy_field }}
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-6">
+        {{ form.date_text|as_crispy_field }}
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-6">
+        {{ form.medium|as_crispy_field }}
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-6">
+        {{ form.credit_line|as_crispy_field }}
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-6">
+        {{ form.acquisition_year|as_crispy_field }}
       </div>
     </div>
     
     <div class="row">
-      <div class="col-3">
-        {{ form.longitude|as_crispy_field }}
+      <div class="col-2">
+        {{ form.width|as_crispy_field }}
       </div>
-      <div class="col-3">
-        {{ form.latitude|as_crispy_field }}
+      <div class="col-2">
+        {{ form.height|as_crispy_field }}
       </div>
-    </div>
-
-    <div class="row">
-      <div class="col-6">
-        {{ form.area_hectares|as_crispy_field }}
+      <div class="col-2">
+        {{ form.depth|as_crispy_field }}
       </div>
     </div>
 
     <div class="row">
       <div class="col-6">
-        {{ form.transboundary|as_crispy_field }}
+        {{ form.subject|as_crispy_field }}
       </div>
     </div>
 
     <button type="submit" class="btn btn-outline-success">Add</button>
-    &nbsp;<a class="btn btn-outline-secondary" href="{% url 'site' %}">cancel</a>
+    &nbsp;<a class="btn btn-outline-secondary" href="{% url 'artwork' %}">cancel</a>
   </form>
 
 {% endblock content %}

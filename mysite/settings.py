@@ -41,7 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.sites',
 
     # local
-    # 'api.apps.ApiConfig',
+    'api.apps.ApiConfig',
     'artworks.apps.ArtworksConfig',
 
     # Third-party

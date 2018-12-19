@@ -111,13 +111,35 @@
        </div>
      {% endif %}
 
-     {% if artwork.subjects %}
+     {% if artwork.subject_names %}
        <div class="row">
          <div class="col-sm-2">
            <p>Subjects</p>
          </div>
          <div class="col-sm-10">
-           <p>{{ artwork.subjects }}</p>
+           <p>{{ artwork.subject_names }}</p>
+         </div>
+       </div>
+     {% endif %}
+
+     {% if artwork.parent_subject_names %}
+       <div class="row">
+         <div class="col-sm-2">
+           <p>Parent Subjects</p>
+         </div>
+         <div class="col-sm-10">
+           <p>{{ artwork.parent_subject_names }}</p>
+         </div>
+       </div>
+     {% endif %}
+
+     {% if artwork.grandparent_subject_names %}
+       <div class="row">
+         <div class="col-sm-2">
+           <p>Grandparent Subjects</p>
+         </div>
+         <div class="col-sm-10">
+           <p>{{ artwork.grandparent_subject_names }}</p>
          </div>
        </div>
      {% endif %}

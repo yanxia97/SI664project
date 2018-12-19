@@ -14,8 +14,8 @@ class Artist(models.Model):
     artist_id = models.AutoField(primary_key=True)
     artist_name = models.CharField(max_length=100)
     gender = models.ForeignKey('Gender', models.DO_NOTHING, blank=True, null=True)
-    birth_place = models.ForeignKey('Place', related_name='birth_place', blank=True, null=True, on_delete=models.CASCADE)
-    death_place = models.ForeignKey('Place', related_name='death_place', blank=True, null=True, on_delete=models.CASCADE)
+    birth_place = models.ForeignKey('Place', related_name='birth_place', blank=True, null=True, on_delete=models.PROTECT)
+    death_place = models.ForeignKey('Place', related_name='death_place', blank=True, null=True, on_delete=models.PROTECT)
     birth_year = models.IntegerField(blank=True, null=True)
     death_year = models.IntegerField(blank=True, null=True)
 
@@ -78,7 +78,7 @@ class Subject(models.Model):
     subject_id = models.AutoField(primary_key=True)
     original_id = models.IntegerField()
     subject_name = models.CharField(max_length=45)
-    parent_subject = models.ForeignKey('self', models.DO_NOTHING, blank=True, null=True)
+    parent_subject = models.ForeignKey('self', on_delete=models.PROTECT, blank=True, null=True)
 
     class Meta:
         managed = False
@@ -109,8 +109,8 @@ class Artwork(models.Model):
     artwork_id = models.AutoField(primary_key=True)
     artwork_name = models.CharField(max_length=999)
     accession_number = models.CharField(max_length=6)
-    artist = models.ForeignKey(Artist, models.DO_NOTHING)
-    artist_role = models.ForeignKey(ArtistRole, models.DO_NOTHING)
+    artist = models.ForeignKey(Artist, on_delete=models.PROTECT)
+    artist_role = models.ForeignKey(ArtistRole, on_delete=models.PROTECT)
     date_text = models.CharField(max_length=100)
     medium = models.CharField(max_length=100)
     credit_line = models.CharField(max_length=999)
@@ -134,6 +134,77 @@ class Artwork(models.Model):
     def get_absolute_url(self):
         # return reverse('artwork_detail', args=[str(self.id)])
         return reverse('artwork_detail', kwargs={'pk': self.pk})
+
+    @property
+    def subject_names(self):
+        """
+        Returns a list of subjects (names only) associated with an Artwork.
+        Note that not all are associated with an Artwork. 
+        In such cases the Queryset will return as <QuerySet [None]> and the
+        list will need to be checked for None or a TypeError (sequence item 0: expected str
+        instance, NoneType found) runtime error will be thrown.
+        :return: string
+        """
+        subjects = self.subject.select_related('parent_subject').order_by('subject_name')
+
+        names = []
+        for subject in subjects:
+            name = subject.subject_name
+            if name is None:
+                continue
+
+            if name not in names:
+               names.append(name)
+
+        return ', '.join(names)
+
+    @property
+    def parent_subject_names(self):
+        """
+        Returns a list of subjects (names only) associated with an Artwork.
+        Note that not all are associated with an Artwork. 
+        In such cases the Queryset will return as <QuerySet [None]> and the
+        list will need to be checked for None or a TypeError (sequence item 0: expected str
+        instance, NoneType found) runtime error will be thrown.
+        :return: string
+        """
+        subjects = self.subject.select_related('parent_subject__parent_subject').order_by('parent_subject__subject_name')
+
+        names = []
+        for subject in subjects:
+            if (subject.parent_subject):
+                name = subject.parent_subject.subject_name
+                if name is None:
+                    continue
+
+                if name not in names:
+                    names.append(name)
+
+        return ', '.join(names)
+
+    @property
+    def grandparent_subject_names(self):
+        """
+        Returns a list of subjects (names only) associated with an Artwork.
+        Note that not all are associated with an Artwork.
+        In such cases the Queryset will return as <QuerySet [None]> and the
+        list will need to be checked for None or a TypeError (sequence item 0: expected str
+        instance, NoneType found) runtime error will be thrown.
+        :return: string
+        """
+        subjects = self.subject.select_related('parent_subject__parent_subject').order_by('parent_subject__parent_subject__subject_name')
+
+        names = []
+        for subject in subjects:
+            if (subject.parent_subject.parent_subject):
+                name = subject.parent_subject.parent_subject.subject_name
+                if name is None:
+                    continue
+                    
+                if name not in names:
+                    names.append(name)
+
+        return ', '.join(names)
 
     def subject_display(self):
         """Create a string for subject. This is required to display in the Admin view."""
@@ -163,8 +234,8 @@ class Artwork(models.Model):
 
 class ArtworkSubject(models.Model):
     artwork_subject_id = models.AutoField(primary_key=True)
-    artwork = models.ForeignKey(Artwork, models.DO_NOTHING)
-    subject = models.ForeignKey('Subject', models.DO_NOTHING)
+    artwork = models.ForeignKey(Artwork, on_delete=models.CASCADE)
+    subject = models.ForeignKey('Subject', on_delete=models.CASCADE)
 
     class Meta:
         managed = False

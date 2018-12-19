@@ -18,13 +18,17 @@
         <h4><a class="btn btn-outline-info" href="{% url 'artwork_detail' artwork.pk %}"> {{ artwork.artwork_name }} </a></h4>
 
         <!-- add the country_area_names and description template tags -->
-        <!-- {% if artwork.country_area_names %}
-          <p> {{ site.country_area_names }} </p>
+        {% if artwork.artwork_names %}
+          <p> {{ artwork.artwork_names }} </p>
         {% endif %}
 
-        {% if sartworkite.description %}
-          <p> {{ site.description }} </p>
-        {% endif %} -->
+        {% if artwork.accession_number %}
+          <p> {{ artwork.accession_number }} </p>
+        {% endif %}
+
+        {% if artwork.credit_line %}
+          <p> {{ artwork.credit_line }} </p>
+        {% endif %}
 
     {% empty %}
       Select one or more filters relevant to your search and then click "filter".

@@ -11,4 +11,5 @@ urlpatterns = [
     path('artwork/new/', views.ArtWorkCreateView.as_view(), name='artwork_new'),
     path('artwork/<int:pk>/delete/', views.ArtWorkDeleteView.as_view(), name='artwork_delete'),
     path('artwork/<int:pk>/update/', views.ArtWorkUpdateView.as_view(), name='artwork_update'),
+    path('artwork/filter/', views.ArtWorkFilterView.as_view(), name='artwork_filter'),
 ]

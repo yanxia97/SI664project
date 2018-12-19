@@ -11,6 +11,7 @@ from django_filters.views import FilterView
 from .models import Artwork, Artist
 from .forms import ArtworkForm
 from .models import ArtworkSubject
+from .filters import ArtworkFilter
 
 # Create your views here.
 
@@ -172,6 +173,6 @@ class ArtWorkDeleteView(generic.DeleteView):
 
         return HttpResponseRedirect(self.get_success_url())
 
-# class SiteFilterView(FilterView):
-#     filterset_class = HeritageSiteFilter
-#     template_name = 'heritagesites/site_filter.html'
+class ArtWorkFilterView(FilterView):
+    filterset_class = ArtworkFilter
+    template_name = 'artworks/artwork_filter.html'

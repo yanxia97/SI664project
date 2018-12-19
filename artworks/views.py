@@ -88,7 +88,7 @@ class ArtWorkCreateView(generic.View):
             artwork = form.save(commit=False)
             artwork.save()
             for subject in form.cleaned_data['subject']:
-                ArtworkSubject.objects.create(Artwork=artwork, Subject=subject)
+                ArtworkSubject.objects.create(artwork=artwork, subject=subject)
             return redirect(artwork) # shortcut to object's get_absolute_url()
             # return HttpResponseRedirect(artwork.get_absolute_url())
         return render(request, 'artworks/artwork_new.html', {'form': form})

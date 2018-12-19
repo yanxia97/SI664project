@@ -29,7 +29,7 @@ class ArtWorkListView(generic.ListView):
     model = Artwork
     context_object_name = 'artworks'
     template_name = 'artworks/artwork.html'
-    paginate_by = 500
+    paginate_by = 5000
 
     # def dispatch(self, *args, **kwargs):
     #     return super().dispatch(*args, **kwargs)
@@ -51,7 +51,7 @@ class ArtistListView(generic.ListView):
     model = Artist
     context_object_name = 'artists'
     template_name = 'artworks/artist.html'
-    paginate_by = 50
+    paginate_by = 250
 
     def dispatch(self, *args, **kwargs):
         return super().dispatch(*args, **kwargs)
